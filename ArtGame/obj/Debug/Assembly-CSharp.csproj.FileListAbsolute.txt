@@ -1,0 +1,2 @@
+C:\Users\Simon\Documents\Gamedev\enjmin\ArtGame\ArtGame\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+C:\Users\Simon\Documents\Gamedev\enjmin\ArtGame\ArtGame\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
