@@ -22,17 +22,19 @@ public class Transformations : MonoBehaviour
 
     public List<GameObject> lights;
     public List<GameObject> globalLights;
+    public List<GameObject> moons;
     public float growDuration;
     public float basicSize;
     public bool isGrowing = false;
     public float currentSpeed;
     public float maxSpeed;
+    [SerializeField] private List<GameObject> bubbles;
 
     public void Start()
     {
         for(int i = 0; i < globalLights.Count; ++i)
         {
-            globalLights[i].GetComponent<Light>().intensity = 0f;
+            //globalLights[i].GetComponent<Light>().intensity = 0f;
         }
         transform.localScale = Vector3.zero;
     }
@@ -52,6 +54,9 @@ public class Transformations : MonoBehaviour
             else
             {
                 transform.localScale = basicSize * Vector3.one;
+                FirstGrowMoon(0);
+                yield return new WaitForSeconds(1);
+                FirstGrowMoon(1);
                 break;
             }
         }
@@ -100,13 +105,43 @@ public class Transformations : MonoBehaviour
         }
     }
 
-    public void Update()
+    public bool FirstGrowMoon(int i)
+    {
+        if (i < moons.Count && moons[i].transform.localScale.x < 0.01)
+        {
+            return moons[i].GetComponent<Moons>().StartGrowing();
+        }
+        return false;
+    }
+
+    public void GrowMoon(int i, float speed)
+    {
+        if (i < moons.Count && !moons[i].GetComponent<Moons>().isGrowing)
+        {
+            moons[i].GetComponent<Moons>().Grow(speed);
+        }
+    }
+
+    public void GrowForms(int i, float speed)
+    {
+        moons[i].GetComponent<Moons>().GrowForms(speed);
+    }
+
+    public void GrowBubble(int i, float acceleration)
+    {
+        if (i < bubbles.Count)
+        {
+            bubbles[i].GetComponent<Bubbles>().Grow(acceleration);
+        }
+    }
+
+        public void Update()
     {
         transform.Rotate(Vector3.up, currentSpeed * Time.deltaTime);
         if (currentSpeed > 0.01f || currentSpeed < -0.01f)
         {
             bool signBefore = currentSpeed > 0.0f;
-            currentSpeed -= 0.3f*currentSpeed / Mathf.Abs(currentSpeed);
+            currentSpeed -= 0.5f*currentSpeed / Mathf.Abs(currentSpeed);
             bool signAfter = currentSpeed > 0.0f;
             if ((signBefore && !signAfter)|| (!signBefore && signAfter))
             {
