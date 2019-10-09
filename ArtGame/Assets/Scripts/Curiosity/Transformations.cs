@@ -60,6 +60,8 @@ public class Transformations : MonoBehaviour
                 FirstGrowMoon(0);
                 yield return new WaitForSeconds(1);
                 FirstGrowMoon(1);
+                yield return new WaitForSeconds(30);
+                FirstGrowMoon(2);
                 break;
             }
         }
@@ -153,7 +155,7 @@ public class Transformations : MonoBehaviour
 
     public void Update()
     {
-        transform.Rotate(Vector3.up, currentSpeed * Time.deltaTime);
+        transform.Rotate(Vector3.up, (currentSpeed + 10f) * Time.deltaTime);
         if (currentSpeed > 0.01f || currentSpeed < -0.01f)
         {
             bool signBefore = currentSpeed > 0.0f;
@@ -166,7 +168,7 @@ public class Transformations : MonoBehaviour
         }
     }
 
-    public void DisformSphere()
+    public void DisformSphere(float intensity = 1f)
     {
         Vector3 dir = new Vector3(Random.Range(-1f,1f), Random.Range(-1f, 1f), Random.Range(-1f, 1f)).normalized;
         Ray inputRay = new Ray(transform.position-dir*3,dir);
@@ -179,12 +181,12 @@ public class Transformations : MonoBehaviour
             {
                 Vector3 point = hit.point;
                 point += hit.normal * forceOffset;
-                deformer.AddDeformingForce(point, force);
+                deformer.AddDeformingForce(point, force * intensity);
             }
         }
     }
 
-    public void PunctualDisform()
+    public void PunctualDisform(float intensity = 1f)
     {
         Vector3 dir = new Vector3(Random.Range(-1f, 1f), Random.Range(-1f, 1f), Random.Range(-1f, 1f)).normalized;
         Ray inputRay = new Ray(transform.position - dir * 3, dir);
@@ -197,7 +199,7 @@ public class Transformations : MonoBehaviour
             {
                 Vector3 point = hit.point;
                 point += hit.normal * forceOffset;
-                deformer.AddDeformingForce(point, 50f);
+                deformer.AddDeformingForce(point, 50f * intensity);
             }
         }
     }

@@ -6,6 +6,8 @@ public class InteractionManager : MonoBehaviour
 {
     public static InteractionManager _instance;
     public static InteractionManager Instance { get { return _instance; } }
+    public FMODUnity.StudioEventEmitter[] sounds;
+    public FMODUnity.StudioEventEmitter[] percus;
     private void Awake()
     {
         if (_instance != null && _instance != this)
@@ -20,9 +22,10 @@ public class InteractionManager : MonoBehaviour
 
     public void Update()
     {
-        if (Input.GetButton("0"))
+        /*if (Input.GetButton("0"))
         {
             Transformations.Instance.Begin();
+
         }
         if (Input.GetButton("1"))
         {
@@ -61,6 +64,6 @@ public class InteractionManager : MonoBehaviour
             Transformations.Instance.Squeeze();
             Transformations.Instance.PunctualDisform();
             Transformations.Instance.Particle();
-        }
+        }*/
     }
 }

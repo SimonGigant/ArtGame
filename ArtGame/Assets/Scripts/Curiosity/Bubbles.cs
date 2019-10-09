@@ -45,10 +45,10 @@ public class Bubbles : MonoBehaviour
     {
         speed = Mathf.Max(speed-0.0002f,0f);
         counter += Time.deltaTime;
-        float currentSpeed = speed * Curves.Sinus(counter/3);
+        float currentSpeed = speed * Curves.Sinus(counter/3f);
         for(int i = 0; i < bubbles.Count; ++i)
         {
-            if (bubbles[i].transform.localScale.x + currentSpeed >= startingScale && bubbles[i].transform.localScale.x + currentSpeed <= startingScale * 2.5)
+            if (bubbles[i].transform.localScale.x + currentSpeed >= startingScale && bubbles[i].transform.localScale.x + currentSpeed <= startingScale * 4)
             {
                 bubbles[i].transform.localScale += currentSpeed * Vector3.one;
             }
