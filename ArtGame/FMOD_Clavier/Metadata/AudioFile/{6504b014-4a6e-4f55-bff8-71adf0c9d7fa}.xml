@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{6504b014-4a6e-4f55-bff8-71adf0c9d7fa}">
+		<property name="assetPath">
+			<value>C4 PAD1-1.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>5</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{06a7df6a-9e40-4e02-bf4a-16ca7b8e90fc}</destination>
+		</relationship>
+	</object>
+</objects>
