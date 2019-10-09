@@ -29,6 +29,9 @@ public class Transformations : MonoBehaviour
     public float currentSpeed;
     public float maxSpeed;
     [SerializeField] private List<GameObject> bubbles;
+    public float force = 3f;
+    public float forceOffset = 0.1f;
+    [SerializeField] private ParticleSystem particles;
 
     public void Start()
     {
@@ -89,6 +92,11 @@ public class Transformations : MonoBehaviour
         StartCoroutine("Grow");
     }
 
+    public void Squeeze()
+    {
+        GetComponentInChildren<DisplacementControl>().Squeeze();
+    }
+
     public void StartVanish()
     {
         StartCoroutine("Vanish");
@@ -101,7 +109,7 @@ public class Transformations : MonoBehaviour
             currentSpeed = Mathf.Min(currentSpeed + acceleration, maxSpeed);
         }else
         {
-            currentSpeed = Mathf.Max(currentSpeed - acceleration, -maxSpeed);
+            currentSpeed = Mathf.Max(currentSpeed + acceleration, -maxSpeed);
         }
     }
 
@@ -127,15 +135,23 @@ public class Transformations : MonoBehaviour
         moons[i].GetComponent<Moons>().GrowForms(speed);
     }
 
+    public void RotateBubbles(int i, float acceleration)
+    {
+        if (i < bubbles.Count) {
+            bubbles[i].GetComponent<Bubbles>().Rotate(acceleration);
+        }
+    }
+
     public void GrowBubble(int i, float acceleration)
     {
         if (i < bubbles.Count)
         {
             bubbles[i].GetComponent<Bubbles>().Grow(acceleration);
+            bubbles[i].GetComponent<Bubbles>().Squeeze();
         }
     }
 
-        public void Update()
+    public void Update()
     {
         transform.Rotate(Vector3.up, currentSpeed * Time.deltaTime);
         if (currentSpeed > 0.01f || currentSpeed < -0.01f)
@@ -148,5 +164,46 @@ public class Transformations : MonoBehaviour
                 currentSpeed = 0.0f;
             }
         }
+    }
+
+    public void DisformSphere()
+    {
+        Vector3 dir = new Vector3(Random.Range(-1f,1f), Random.Range(-1f, 1f), Random.Range(-1f, 1f)).normalized;
+        Ray inputRay = new Ray(transform.position-dir*3,dir);
+        RaycastHit hit;
+
+        if (Physics.Raycast(inputRay, out hit))
+        {
+            MeshDeformer deformer = hit.collider.GetComponent<MeshDeformer>();
+            if (deformer)
+            {
+                Vector3 point = hit.point;
+                point += hit.normal * forceOffset;
+                deformer.AddDeformingForce(point, force);
+            }
+        }
+    }
+
+    public void PunctualDisform()
+    {
+        Vector3 dir = new Vector3(Random.Range(-1f, 1f), Random.Range(-1f, 1f), Random.Range(-1f, 1f)).normalized;
+        Ray inputRay = new Ray(transform.position - dir * 3, dir);
+        RaycastHit hit;
+
+        if (Physics.Raycast(inputRay, out hit))
+        {
+            MeshDeformer deformer = hit.collider.GetComponent<MeshDeformer>();
+            if (deformer)
+            {
+                Vector3 point = hit.point;
+                point += hit.normal * forceOffset;
+                deformer.AddDeformingForce(point, 50f);
+            }
+        }
+    }
+
+    public void Particle()
+    {
+        particles.Play();
     }
 }

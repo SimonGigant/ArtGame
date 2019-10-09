@@ -5,10 +5,11 @@ using UnityEngine;
 public class Moons : MonoBehaviour
 {
     public bool isGrowing = false;
-    [SerializeField] private float growDuration;
-    [SerializeField] private float maxSize;
-    [SerializeField] private float minSize;
-    [SerializeField] private List<GameObject> forms;
+    [SerializeField] private float growDuration = 1f;
+    [SerializeField] private float maxSize = 1f;
+    [SerializeField] private float minSize = 0f;
+    [SerializeField] private List<GameObject> forms = null;
+    [SerializeField] private GameObject orbit = null;
     private List<float> formScale = new List<float>();
     private float counterFormChange = 0.0f;
 

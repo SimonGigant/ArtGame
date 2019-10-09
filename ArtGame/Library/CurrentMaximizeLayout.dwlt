@@ -14,17 +14,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Children:
   - {fileID: 3}
-  - {fileID: 14}
+  - {fileID: 15}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 30
-    width: 1522
-    height: 717
-  m_MinSize: {x: 679, y: 444}
-  m_MaxSize: {x: 12004, y: 8044}
+    width: 1536
+    height: 731
+  m_MinSize: {x: 683, y: 444}
+  m_MaxSize: {x: 12008, y: 8044}
   vertical: 0
-  controlID: 17162
+  controlID: 5931
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -46,10 +46,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 7.2000003
-    y: 515.2
-    width: 878
-    height: 263
+    x: 0
+    y: 479
+    width: 950
+    height: 250
   m_ViewDataDictionary: {fileID: 0}
   m_VSyncEnabled: 0
   m_MaximizeOnPlay: 1
@@ -62,10 +62,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -351.2
-    m_HBaseRangeMax: 351.2
-    m_VBaseRangeMin: -98.4
-    m_VBaseRangeMax: 98.4
+    m_HBaseRangeMin: -380
+    m_HBaseRangeMax: 380
+    m_VBaseRangeMin: -93.200005
+    m_VBaseRangeMax: 93.200005
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -74,7 +74,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -83,25 +83,25 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 17
-      width: 878
-      height: 246
-    m_Scale: {x: 1.1826664, y: 1.1826664}
-    m_Translation: {x: 439, y: 123}
+      width: 950
+      height: 233
+    m_Scale: {x: 1.2376357, y: 1.2376357}
+    m_Translation: {x: 475, y: 116.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -371.19513
-      y: -104.00227
-      width: 742.39026
-      height: 208.00455
+      x: -383.7963
+      y: -94.13109
+      width: 767.5926
+      height: 188.26218
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
-  m_LastWindowPixelSize: {x: 1097.5, y: 328.75}
+  m_LastWindowPixelSize: {x: 1187.5, y: 312.5}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -120,17 +120,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Children:
   - {fileID: 4}
-  - {fileID: 10}
+  - {fileID: 11}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 878
-    height: 717
-  m_MinSize: {x: 404, y: 444}
-  m_MaxSize: {x: 8004, y: 8044}
+    width: 952
+    height: 731
+  m_MinSize: {x: 406, y: 444}
+  m_MaxSize: {x: 8006, y: 8044}
   vertical: 1
-  controlID: 17163
+  controlID: 5901
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -150,12 +150,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 878
-    height: 435
-  m_MinSize: {x: 404, y: 222}
-  m_MaxSize: {x: 8004, y: 4022}
+    width: 952
+    height: 459
+  m_MinSize: {x: 406, y: 222}
+  m_MaxSize: {x: 8006, y: 4022}
   vertical: 0
-  controlID: 17164
+  controlID: 5902
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -173,8 +173,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 218
-    height: 435
+    width: 236
+    height: 459
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 6}
@@ -203,17 +203,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 7.2000003
-    y: 80.8
-    width: 218
-    height: 416
+    x: 0
+    y: 73.6
+    width: 236
+    height: 440
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 3670ffffb077ffff6efbffff5e310000
+      m_ExpandedIDs: 6efbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -252,18 +252,19 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 218
+    x: 236
     y: 0
-    width: 660
-    height: 435
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+    width: 716
+    height: 459
+  m_MinSize: {x: 204, y: 222}
+  m_MaxSize: {x: 4004, y: 4022}
   m_ActualView: {fileID: 8}
   m_Panes:
   - {fileID: 8}
   - {fileID: 9}
+  - {fileID: 10}
   m_Selected: 0
-  m_LastSelected: 1
+  m_LastSelected: 2
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -285,10 +286,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 225.6
-    y: 80.8
-    width: 658
-    height: 416
+    x: 236
+    y: 73.6
+    width: 714
+    height: 440
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
   m_WindowGUID: 86d71f68031d69849a325f3600d70c5e
@@ -300,9 +301,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 2.6312795, y: 0.5151563, z: -7.2689323}
+    m_Target: {x: -1.399471, y: -4.8416758, z: -5.3228745}
     speed: 2
-    m_Value: {x: 2.6312795, y: 0.5151563, z: -7.2689323}
+    m_Value: {x: -1.399471, y: -4.8416758, z: -5.3228745}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -331,13 +332,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.07267839, y: 0.5033067, z: -0.042536106, w: 0.8600044}
+    m_Target: {x: 0.4496836, y: -0.16650902, z: 0.08573678, w: 0.8733341}
     speed: 2
-    m_Value: {x: 0.07267778, y: 0.5033025, z: -0.042535752, w: 0.8599973}
+    m_Value: {x: 0.44968274, y: -0.1665087, z: 0.08573662, w: 0.87333244}
   m_Size:
-    m_Target: 6.1120405
+    m_Target: 8.74198
     speed: 2
-    m_Value: 6.1120405
+    m_Value: 8.74198
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -384,12 +385,39 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 262.4
+    x: 236
     y: 73.6
-    width: 788
+    width: 717
     height: 425
   m_ViewDataDictionary: {fileID: 0}
 --- !u!114 &10
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 924ffcbe75518854f97b48776d0f1939, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: VertDisplacement
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 236
+    y: 73.6
+    width: 713
+    height: 425
+  m_ViewDataDictionary: {fileID: 0}
+  m_Selected: 797157b4e4b448043aa83673153be058
+  m_GraphObject: {fileID: 0}
+--- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -405,20 +433,20 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 435
-    width: 878
-    height: 282
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+    y: 459
+    width: 952
+    height: 272
+  m_MinSize: {x: 202, y: 222}
+  m_MaxSize: {x: 4002, y: 4022}
   m_ActualView: {fileID: 2}
   m_Panes:
-  - {fileID: 11}
   - {fileID: 12}
   - {fileID: 13}
+  - {fileID: 14}
   - {fileID: 2}
   m_Selected: 3
-  m_LastSelected: 1
---- !u!114 &11
+  m_LastSelected: 0
+--- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -440,9 +468,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 516
-    width: 886
-    height: 269
+    y: 532
+    width: 952
+    height: 253
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -457,20 +485,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts/Curiosity
+    - Assets/Prefab
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts/Curiosity
+  - Assets/Prefab
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Simon\Documents\Gamedev\enjmin\ArtGame\ArtGame
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 142f0000
-    m_LastClickedID: 12052
-    m_ExpandedIDs: 00000000b62d0000ee2f000000ca9a3b
+    scrollPos: {x: 0, y: 39}
+    m_SelectedIDs: 44550000
+    m_LastClickedID: 21828
+    m_ExpandedIDs: 00000000e83400006637000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -486,7 +514,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 10}
+      m_ClientGUIView: {fileID: 11}
     m_SearchString: 
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
@@ -498,7 +526,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000b62d000000ca9a3b
+    m_ExpandedIDs: 00000000e83400006637000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -523,9 +551,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 5e310000
-    m_LastClickedInstanceID: 12638
-    m_HadKeyboardFocusLastEvent: 1
+    m_SelectedInstanceIDs: fca3feff
+    m_LastClickedInstanceID: -89092
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -542,7 +570,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 10}
+      m_ClientGUIView: {fileID: 11}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -554,7 +582,7 @@ MonoBehaviour:
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 250
---- !u!114 &12
+--- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -576,11 +604,11 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 516
-    width: 886
-    height: 269
+    y: 532
+    width: 952
+    height: 253
   m_ViewDataDictionary: {fileID: 0}
---- !u!114 &13
+--- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -602,9 +630,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 510.4
-    width: 886
-    height: 275
+    y: 517.60004
+    width: 951
+    height: 268
   m_ViewDataDictionary: {fileID: 0}
   m_ViewTransforms:
     m_KeySerializationHelper:
@@ -644,7 +672,7 @@ MonoBehaviour:
   m_CurrentEditor: 0
   m_LayerEditor:
     m_SelectedLayerIndex: 0
---- !u!114 &14
+--- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -659,20 +687,20 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 878
+    x: 952
     y: 0
-    width: 644
-    height: 717
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 15}
+    width: 584
+    height: 731
+  m_MinSize: {x: 277, y: 72}
+  m_MaxSize: {x: 4002, y: 4022}
+  m_ActualView: {fileID: 16}
   m_Panes:
-  - {fileID: 15}
   - {fileID: 16}
   - {fileID: 17}
+  - {fileID: 18}
   m_Selected: 0
-  m_LastSelected: 1
---- !u!114 &15
+  m_LastSelected: 2
+--- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -693,10 +721,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 885.60004
-    y: 80.8
-    width: 642
-    height: 698
+    x: 952
+    y: 73.6
+    width: 582
+    height: 712
   m_ViewDataDictionary: {fileID: 0}
   m_OpenAddComponentMenu: 0
   m_ObjectsLockedBeforeSerialization: []
@@ -708,9 +736,9 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
-  m_LastInspectedObjectInstanceID: 12632
+  m_LastInspectedObjectInstanceID: -89092
   m_LastVerticalScrollValue: 0
---- !u!114 &16
+--- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -731,16 +759,16 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 886.4
+    x: 951.2
     y: 73.6
-    width: 648
+    width: 583
     height: 712
   m_ViewDataDictionary: {fileID: 0}
   m_PosLeft: {x: 0, y: 0}
   m_PosRight: {x: 0, y: 0}
   m_Scope: 1
   m_SplitterFlex: 0
---- !u!114 &17
+--- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -760,9 +788,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 834.4
+    x: 952
     y: 73.6
-    width: 700
+    width: 582
     height: 712
   m_ViewDataDictionary: {fileID: 0}
   Collection:
@@ -2665,6 +2693,2784 @@ MonoBehaviour:
           m_IsDefault: 0
         m_HideInEditor: 1
         m_DatePublishedTicks: 0
+      IsInstalled: 1
+    - Name: com.unity.postprocessing
+      DisplayName: Post Processing
+      _Version: 0.1.7
+      Description: The post-processing stack (v2) comes with a collection of effects
+        and image filters you can apply to your cameras to improve the visuals of
+        your games.
+      Category: 
+      State: 0
+      IsLatest: 0
+      Group: Packages
+      Type: 
+      Origin: 1
+      Errors: []
+      IsVerified: 0
+      Author: Unity Technologies Inc.
+      IsDiscoverable: 1
+      Samples: []
+      HasFullFetch: 0
+      Info:
+        m_PackageId: com.unity.postprocessing@2.1.7
+        m_IsDirectDependency: 1
+        m_Version: 2.1.7
+        m_Source: 1
+        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\ArtGame\ArtGame\Library\PackageCache\com.unity.postprocessing@2.1.7
+        m_AssetPath: Packages/com.unity.postprocessing
+        m_Name: com.unity.postprocessing
+        m_DisplayName: Post Processing
+        m_Category: 
+        m_Type: 
+        m_Description: The post-processing stack (v2) comes with a collection of effects
+          and image filters you can apply to your cameras to improve the visuals of
+          your games.
+        m_Status: 4
+        m_Errors: []
+        m_Versions:
+          m_All:
+          - 0.1.7
+          - 0.1.8
+          - 2.0.0-beta
+          - 2.0.1-beta
+          - 2.0.2-preview
+          - 2.0.3-preview
+          - 2.0.5-preview
+          - 2.0.7-preview
+          - 2.0.8-preview
+          - 2.0.9-preview
+          - 2.0.10-preview
+          - 2.0.11-preview
+          - 2.0.12-preview
+          - 2.0.13-preview
+          - 2.0.14-preview
+          - 2.0.15-preview
+          - 2.0.16-preview
+          - 2.0.17-preview
+          - 2.1.0
+          - 2.1.1
+          - 2.1.2
+          - 2.1.3
+          - 2.1.4
+          - 2.1.5
+          - 2.1.6
+          - 2.1.7
+          m_Compatible:
+          - 0.1.7
+          - 0.1.8
+          - 2.0.0-beta
+          - 2.0.1-beta
+          - 2.0.2-preview
+          - 2.0.3-preview
+          - 2.0.5-preview
+          - 2.0.7-preview
+          - 2.0.8-preview
+          - 2.0.9-preview
+          - 2.0.10-preview
+          - 2.0.11-preview
+          - 2.0.12-preview
+          - 2.0.13-preview
+          - 2.0.14-preview
+          - 2.0.15-preview
+          - 2.0.16-preview
+          - 2.0.17-preview
+          - 2.1.0
+          - 2.1.1
+          - 2.1.2
+          - 2.1.3
+          - 2.1.4
+          - 2.1.5
+          - 2.1.6
+          - 2.1.7
+          m_Recommended: 2.1.7
+        m_Dependencies: []
+        m_ResolvedDependencies: []
+        m_Keywords: []
+        m_Author:
+          m_Name: 
+          m_Email: 
+          m_Url: 
+        m_HasRegistry: 1
+        m_Registry:
+          m_Name: 
+          m_Url: https://packages.unity.com
+          m_IsDefault: 1
+        m_HideInEditor: 1
+        m_DatePublishedTicks: 636959593270000000
+      IsInstalled: 0
+    - Name: com.unity.postprocessing
+      DisplayName: Post Processing
+      _Version: 0.1.8
+      Description: The post-processing stack (v2) comes with a collection of effects
+        and image filters you can apply to your cameras to improve the visuals of
+        your games.
+      Category: 
+      State: 0
+      IsLatest: 0
+      Group: Packages
+      Type: 
+      Origin: 1
+      Errors: []
+      IsVerified: 0
+      Author: Unity Technologies Inc.
+      IsDiscoverable: 1
+      Samples: []
+      HasFullFetch: 0
+      Info:
+        m_PackageId: com.unity.postprocessing@2.1.7
+        m_IsDirectDependency: 1
+        m_Version: 2.1.7
+        m_Source: 1
+        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\ArtGame\ArtGame\Library\PackageCache\com.unity.postprocessing@2.1.7
+        m_AssetPath: Packages/com.unity.postprocessing
+        m_Name: com.unity.postprocessing
+        m_DisplayName: Post Processing
+        m_Category: 
+        m_Type: 
+        m_Description: The post-processing stack (v2) comes with a collection of effects
+          and image filters you can apply to your cameras to improve the visuals of
+          your games.
+        m_Status: 4
+        m_Errors: []
+        m_Versions:
+          m_All:
+          - 0.1.7
+          - 0.1.8
+          - 2.0.0-beta
+          - 2.0.1-beta
+          - 2.0.2-preview
+          - 2.0.3-preview
+          - 2.0.5-preview
+          - 2.0.7-preview
+          - 2.0.8-preview
+          - 2.0.9-preview
+          - 2.0.10-preview
+          - 2.0.11-preview
+          - 2.0.12-preview
+          - 2.0.13-preview
+          - 2.0.14-preview
+          - 2.0.15-preview
+          - 2.0.16-preview
+          - 2.0.17-preview
+          - 2.1.0
+          - 2.1.1
+          - 2.1.2
+          - 2.1.3
+          - 2.1.4
+          - 2.1.5
+          - 2.1.6
+          - 2.1.7
+          m_Compatible:
+          - 0.1.7
+          - 0.1.8
+          - 2.0.0-beta
+          - 2.0.1-beta
+          - 2.0.2-preview
+          - 2.0.3-preview
+          - 2.0.5-preview
+          - 2.0.7-preview
+          - 2.0.8-preview
+          - 2.0.9-preview
+          - 2.0.10-preview
+          - 2.0.11-preview
+          - 2.0.12-preview
+          - 2.0.13-preview
+          - 2.0.14-preview
+          - 2.0.15-preview
+          - 2.0.16-preview
+          - 2.0.17-preview
+          - 2.1.0
+          - 2.1.1
+          - 2.1.2
+          - 2.1.3
+          - 2.1.4
+          - 2.1.5
+          - 2.1.6
+          - 2.1.7
+          m_Recommended: 2.1.7
+        m_Dependencies: []
+        m_ResolvedDependencies: []
+        m_Keywords: []
+        m_Author:
+          m_Name: 
+          m_Email: 
+          m_Url: 
+        m_HasRegistry: 1
+        m_Registry:
+          m_Name: 
+          m_Url: https://packages.unity.com
+          m_IsDefault: 1
+        m_HideInEditor: 1
+        m_DatePublishedTicks: 636959593270000000
+      IsInstalled: 0
+    - Name: com.unity.postprocessing
+      DisplayName: Post Processing
+      _Version: 2.0.2-preview
+      Description: The post-processing stack (v2) comes with a collection of effects
+        and image filters you can apply to your cameras to improve the visuals of
+        your games.
+      Category: 
+      State: 0
+      IsLatest: 0
+      Group: Packages
+      Type: 
+      Origin: 1
+      Errors: []
+      IsVerified: 0
+      Author: Unity Technologies Inc.
+      IsDiscoverable: 1
+      Samples: []
+      HasFullFetch: 0
+      Info:
+        m_PackageId: com.unity.postprocessing@2.1.7
+        m_IsDirectDependency: 1
+        m_Version: 2.1.7
+        m_Source: 1
+        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\ArtGame\ArtGame\Library\PackageCache\com.unity.postprocessing@2.1.7
+        m_AssetPath: Packages/com.unity.postprocessing
+        m_Name: com.unity.postprocessing
+        m_DisplayName: Post Processing
+        m_Category: 
+        m_Type: 
+        m_Description: The post-processing stack (v2) comes with a collection of effects
+          and image filters you can apply to your cameras to improve the visuals of
+          your games.
+        m_Status: 4
+        m_Errors: []
+        m_Versions:
+          m_All:
+          - 0.1.7
+          - 0.1.8
+          - 2.0.0-beta
+          - 2.0.1-beta
+          - 2.0.2-preview
+          - 2.0.3-preview
+          - 2.0.5-preview
+          - 2.0.7-preview
+          - 2.0.8-preview
+          - 2.0.9-preview
+          - 2.0.10-preview
+          - 2.0.11-preview
+          - 2.0.12-preview
+          - 2.0.13-preview
+          - 2.0.14-preview
+          - 2.0.15-preview
+          - 2.0.16-preview
+          - 2.0.17-preview
+          - 2.1.0
+          - 2.1.1
+          - 2.1.2
+          - 2.1.3
+          - 2.1.4
+          - 2.1.5
+          - 2.1.6
+          - 2.1.7
+          m_Compatible:
+          - 0.1.7
+          - 0.1.8
+          - 2.0.0-beta
+          - 2.0.1-beta
+          - 2.0.2-preview
+          - 2.0.3-preview
+          - 2.0.5-preview
+          - 2.0.7-preview
+          - 2.0.8-preview
+          - 2.0.9-preview
+          - 2.0.10-preview
+          - 2.0.11-preview
+          - 2.0.12-preview
+          - 2.0.13-preview
+          - 2.0.14-preview
+          - 2.0.15-preview
+          - 2.0.16-preview
+          - 2.0.17-preview
+          - 2.1.0
+          - 2.1.1
+          - 2.1.2
+          - 2.1.3
+          - 2.1.4
+          - 2.1.5
+          - 2.1.6
+          - 2.1.7
+          m_Recommended: 2.1.7
+        m_Dependencies: []
+        m_ResolvedDependencies: []
+        m_Keywords: []
+        m_Author:
+          m_Name: 
+          m_Email: 
+          m_Url: 
+        m_HasRegistry: 1
+        m_Registry:
+          m_Name: 
+          m_Url: https://packages.unity.com
+          m_IsDefault: 1
+        m_HideInEditor: 1
+        m_DatePublishedTicks: 636959593270000000
+      IsInstalled: 0
+    - Name: com.unity.postprocessing
+      DisplayName: Post Processing
+      _Version: 2.0.3-preview
+      Description: The post-processing stack (v2) comes with a collection of effects
+        and image filters you can apply to your cameras to improve the visuals of
+        your games.
+      Category: 
+      State: 0
+      IsLatest: 0
+      Group: Packages
+      Type: 
+      Origin: 1
+      Errors: []
+      IsVerified: 0
+      Author: Unity Technologies Inc.
+      IsDiscoverable: 1
+      Samples: []
+      HasFullFetch: 0
+      Info:
+        m_PackageId: com.unity.postprocessing@2.1.7
+        m_IsDirectDependency: 1
+        m_Version: 2.1.7
+        m_Source: 1
+        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\ArtGame\ArtGame\Library\PackageCache\com.unity.postprocessing@2.1.7
+        m_AssetPath: Packages/com.unity.postprocessing
+        m_Name: com.unity.postprocessing
+        m_DisplayName: Post Processing
+        m_Category: 
+        m_Type: 
+        m_Description: The post-processing stack (v2) comes with a collection of effects
+          and image filters you can apply to your cameras to improve the visuals of
+          your games.
+        m_Status: 4
+        m_Errors: []
+        m_Versions:
+          m_All:
+          - 0.1.7
+          - 0.1.8
+          - 2.0.0-beta
+          - 2.0.1-beta
+          - 2.0.2-preview
+          - 2.0.3-preview
+          - 2.0.5-preview
+          - 2.0.7-preview
+          - 2.0.8-preview
+          - 2.0.9-preview
+          - 2.0.10-preview
+          - 2.0.11-preview
+          - 2.0.12-preview
+          - 2.0.13-preview
+          - 2.0.14-preview
+          - 2.0.15-preview
+          - 2.0.16-preview
+          - 2.0.17-preview
+          - 2.1.0
+          - 2.1.1
+          - 2.1.2
+          - 2.1.3
+          - 2.1.4
+          - 2.1.5
+          - 2.1.6
+          - 2.1.7
+          m_Compatible:
+          - 0.1.7
+          - 0.1.8
+          - 2.0.0-beta
+          - 2.0.1-beta
+          - 2.0.2-preview
+          - 2.0.3-preview
+          - 2.0.5-preview
+          - 2.0.7-preview
+          - 2.0.8-preview
+          - 2.0.9-preview
+          - 2.0.10-preview
+          - 2.0.11-preview
+          - 2.0.12-preview
+          - 2.0.13-preview
+          - 2.0.14-preview
+          - 2.0.15-preview
+          - 2.0.16-preview
+          - 2.0.17-preview
+          - 2.1.0
+          - 2.1.1
+          - 2.1.2
+          - 2.1.3
+          - 2.1.4
+          - 2.1.5
+          - 2.1.6
+          - 2.1.7
+          m_Recommended: 2.1.7
+        m_Dependencies: []
+        m_ResolvedDependencies: []
+        m_Keywords: []
+        m_Author:
+          m_Name: 
+          m_Email: 
+          m_Url: 
+        m_HasRegistry: 1
+        m_Registry:
+          m_Name: 
+          m_Url: https://packages.unity.com
+          m_IsDefault: 1
+        m_HideInEditor: 1
+        m_DatePublishedTicks: 636959593270000000
+      IsInstalled: 0
+    - Name: com.unity.postprocessing
+      DisplayName: Post Processing
+      _Version: 2.0.5-preview
+      Description: The post-processing stack (v2) comes with a collection of effects
+        and image filters you can apply to your cameras to improve the visuals of
+        your games.
+      Category: 
+      State: 0
+      IsLatest: 0
+      Group: Packages
+      Type: 
+      Origin: 1
+      Errors: []
+      IsVerified: 0
+      Author: Unity Technologies Inc.
+      IsDiscoverable: 1
+      Samples: []
+      HasFullFetch: 0
+      Info:
+        m_PackageId: com.unity.postprocessing@2.1.7
+        m_IsDirectDependency: 1
+        m_Version: 2.1.7
+        m_Source: 1
+        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\ArtGame\ArtGame\Library\PackageCache\com.unity.postprocessing@2.1.7
+        m_AssetPath: Packages/com.unity.postprocessing
+        m_Name: com.unity.postprocessing
+        m_DisplayName: Post Processing
+        m_Category: 
+        m_Type: 
+        m_Description: The post-processing stack (v2) comes with a collection of effects
+          and image filters you can apply to your cameras to improve the visuals of
+          your games.
+        m_Status: 4
+        m_Errors: []
+        m_Versions:
+          m_All:
+          - 0.1.7
+          - 0.1.8
+          - 2.0.0-beta
+          - 2.0.1-beta
+          - 2.0.2-preview
+          - 2.0.3-preview
+          - 2.0.5-preview
+          - 2.0.7-preview
+          - 2.0.8-preview
+          - 2.0.9-preview
+          - 2.0.10-preview
+          - 2.0.11-preview
+          - 2.0.12-preview
+          - 2.0.13-preview
+          - 2.0.14-preview
+          - 2.0.15-preview
+          - 2.0.16-preview
+          - 2.0.17-preview
+          - 2.1.0
+          - 2.1.1
+          - 2.1.2
+          - 2.1.3
+          - 2.1.4
+          - 2.1.5
+          - 2.1.6
+          - 2.1.7
+          m_Compatible:
+          - 0.1.7
+          - 0.1.8
+          - 2.0.0-beta
+          - 2.0.1-beta
+          - 2.0.2-preview
+          - 2.0.3-preview
+          - 2.0.5-preview
+          - 2.0.7-preview
+          - 2.0.8-preview
+          - 2.0.9-preview
+          - 2.0.10-preview
+          - 2.0.11-preview
+          - 2.0.12-preview
+          - 2.0.13-preview
+          - 2.0.14-preview
+          - 2.0.15-preview
+          - 2.0.16-preview
+          - 2.0.17-preview
+          - 2.1.0
+          - 2.1.1
+          - 2.1.2
+          - 2.1.3
+          - 2.1.4
+          - 2.1.5
+          - 2.1.6
+          - 2.1.7
+          m_Recommended: 2.1.7
+        m_Dependencies: []
+        m_ResolvedDependencies: []
+        m_Keywords: []
+        m_Author:
+          m_Name: 
+          m_Email: 
+          m_Url: 
+        m_HasRegistry: 1
+        m_Registry:
+          m_Name: 
+          m_Url: https://packages.unity.com
+          m_IsDefault: 1
+        m_HideInEditor: 1
+        m_DatePublishedTicks: 636959593270000000
+      IsInstalled: 0
+    - Name: com.unity.postprocessing
+      DisplayName: Post Processing
+      _Version: 2.0.7-preview
+      Description: The post-processing stack (v2) comes with a collection of effects
+        and image filters you can apply to your cameras to improve the visuals of
+        your games.
+      Category: 
+      State: 0
+      IsLatest: 0
+      Group: Packages
+      Type: 
+      Origin: 1
+      Errors: []
+      IsVerified: 0
+      Author: Unity Technologies Inc.
+      IsDiscoverable: 1
+      Samples: []
+      HasFullFetch: 0
+      Info:
+        m_PackageId: com.unity.postprocessing@2.1.7
+        m_IsDirectDependency: 1
+        m_Version: 2.1.7
+        m_Source: 1
+        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\ArtGame\ArtGame\Library\PackageCache\com.unity.postprocessing@2.1.7
+        m_AssetPath: Packages/com.unity.postprocessing
+        m_Name: com.unity.postprocessing
+        m_DisplayName: Post Processing
+        m_Category: 
+        m_Type: 
+        m_Description: The post-processing stack (v2) comes with a collection of effects
+          and image filters you can apply to your cameras to improve the visuals of
+          your games.
+        m_Status: 4
+        m_Errors: []
+        m_Versions:
+          m_All:
+          - 0.1.7
+          - 0.1.8
+          - 2.0.0-beta
+          - 2.0.1-beta
+          - 2.0.2-preview
+          - 2.0.3-preview
+          - 2.0.5-preview
+          - 2.0.7-preview
+          - 2.0.8-preview
+          - 2.0.9-preview
+          - 2.0.10-preview
+          - 2.0.11-preview
+          - 2.0.12-preview
+          - 2.0.13-preview
+          - 2.0.14-preview
+          - 2.0.15-preview
+          - 2.0.16-preview
+          - 2.0.17-preview
+          - 2.1.0
+          - 2.1.1
+          - 2.1.2
+          - 2.1.3
+          - 2.1.4
+          - 2.1.5
+          - 2.1.6
+          - 2.1.7
+          m_Compatible:
+          - 0.1.7
+          - 0.1.8
+          - 2.0.0-beta
+          - 2.0.1-beta
+          - 2.0.2-preview
+          - 2.0.3-preview
+          - 2.0.5-preview
+          - 2.0.7-preview
+          - 2.0.8-preview
+          - 2.0.9-preview
+          - 2.0.10-preview
+          - 2.0.11-preview
+          - 2.0.12-preview
+          - 2.0.13-preview
+          - 2.0.14-preview
+          - 2.0.15-preview
+          - 2.0.16-preview
+          - 2.0.17-preview
+          - 2.1.0
+          - 2.1.1
+          - 2.1.2
+          - 2.1.3
+          - 2.1.4
+          - 2.1.5
+          - 2.1.6
+          - 2.1.7
+          m_Recommended: 2.1.7
+        m_Dependencies: []
+        m_ResolvedDependencies: []
+        m_Keywords: []
+        m_Author:
+          m_Name: 
+          m_Email: 
+          m_Url: 
+        m_HasRegistry: 1
+        m_Registry:
+          m_Name: 
+          m_Url: https://packages.unity.com
+          m_IsDefault: 1
+        m_HideInEditor: 1
+        m_DatePublishedTicks: 636959593270000000
+      IsInstalled: 0
+    - Name: com.unity.postprocessing
+      DisplayName: Post Processing
+      _Version: 2.0.8-preview
+      Description: The post-processing stack (v2) comes with a collection of effects
+        and image filters you can apply to your cameras to improve the visuals of
+        your games.
+      Category: 
+      State: 0
+      IsLatest: 0
+      Group: Packages
+      Type: 
+      Origin: 1
+      Errors: []
+      IsVerified: 0
+      Author: Unity Technologies Inc.
+      IsDiscoverable: 1
+      Samples: []
+      HasFullFetch: 0
+      Info:
+        m_PackageId: com.unity.postprocessing@2.1.7
+        m_IsDirectDependency: 1
+        m_Version: 2.1.7
+        m_Source: 1
+        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\ArtGame\ArtGame\Library\PackageCache\com.unity.postprocessing@2.1.7
+        m_AssetPath: Packages/com.unity.postprocessing
+        m_Name: com.unity.postprocessing
+        m_DisplayName: Post Processing
+        m_Category: 
+        m_Type: 
+        m_Description: The post-processing stack (v2) comes with a collection of effects
+          and image filters you can apply to your cameras to improve the visuals of
+          your games.
+        m_Status: 4
+        m_Errors: []
+        m_Versions:
+          m_All:
+          - 0.1.7
+          - 0.1.8
+          - 2.0.0-beta
+          - 2.0.1-beta
+          - 2.0.2-preview
+          - 2.0.3-preview
+          - 2.0.5-preview
+          - 2.0.7-preview
+          - 2.0.8-preview
+          - 2.0.9-preview
+          - 2.0.10-preview
+          - 2.0.11-preview
+          - 2.0.12-preview
+          - 2.0.13-preview
+          - 2.0.14-preview
+          - 2.0.15-preview
+          - 2.0.16-preview
+          - 2.0.17-preview
+          - 2.1.0
+          - 2.1.1
+          - 2.1.2
+          - 2.1.3
+          - 2.1.4
+          - 2.1.5
+          - 2.1.6
+          - 2.1.7
+          m_Compatible:
+          - 0.1.7
+          - 0.1.8
+          - 2.0.0-beta
+          - 2.0.1-beta
+          - 2.0.2-preview
+          - 2.0.3-preview
+          - 2.0.5-preview
+          - 2.0.7-preview
+          - 2.0.8-preview
+          - 2.0.9-preview
+          - 2.0.10-preview
+          - 2.0.11-preview
+          - 2.0.12-preview
+          - 2.0.13-preview
+          - 2.0.14-preview
+          - 2.0.15-preview
+          - 2.0.16-preview
+          - 2.0.17-preview
+          - 2.1.0
+          - 2.1.1
+          - 2.1.2
+          - 2.1.3
+          - 2.1.4
+          - 2.1.5
+          - 2.1.6
+          - 2.1.7
+          m_Recommended: 2.1.7
+        m_Dependencies: []
+        m_ResolvedDependencies: []
+        m_Keywords: []
+        m_Author:
+          m_Name: 
+          m_Email: 
+          m_Url: 
+        m_HasRegistry: 1
+        m_Registry:
+          m_Name: 
+          m_Url: https://packages.unity.com
+          m_IsDefault: 1
+        m_HideInEditor: 1
+        m_DatePublishedTicks: 636959593270000000
+      IsInstalled: 0
+    - Name: com.unity.postprocessing
+      DisplayName: Post Processing
+      _Version: 2.0.9-preview
+      Description: The post-processing stack (v2) comes with a collection of effects
+        and image filters you can apply to your cameras to improve the visuals of
+        your games.
+      Category: 
+      State: 0
+      IsLatest: 0
+      Group: Packages
+      Type: 
+      Origin: 1
+      Errors: []
+      IsVerified: 0
+      Author: Unity Technologies Inc.
+      IsDiscoverable: 1
+      Samples: []
+      HasFullFetch: 0
+      Info:
+        m_PackageId: com.unity.postprocessing@2.1.7
+        m_IsDirectDependency: 1
+        m_Version: 2.1.7
+        m_Source: 1
+        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\ArtGame\ArtGame\Library\PackageCache\com.unity.postprocessing@2.1.7
+        m_AssetPath: Packages/com.unity.postprocessing
+        m_Name: com.unity.postprocessing
+        m_DisplayName: Post Processing
+        m_Category: 
+        m_Type: 
+        m_Description: The post-processing stack (v2) comes with a collection of effects
+          and image filters you can apply to your cameras to improve the visuals of
+          your games.
+        m_Status: 4
+        m_Errors: []
+        m_Versions:
+          m_All:
+          - 0.1.7
+          - 0.1.8
+          - 2.0.0-beta
+          - 2.0.1-beta
+          - 2.0.2-preview
+          - 2.0.3-preview
+          - 2.0.5-preview
+          - 2.0.7-preview
+          - 2.0.8-preview
+          - 2.0.9-preview
+          - 2.0.10-preview
+          - 2.0.11-preview
+          - 2.0.12-preview
+          - 2.0.13-preview
+          - 2.0.14-preview
+          - 2.0.15-preview
+          - 2.0.16-preview
+          - 2.0.17-preview
+          - 2.1.0
+          - 2.1.1
+          - 2.1.2
+          - 2.1.3
+          - 2.1.4
+          - 2.1.5
+          - 2.1.6
+          - 2.1.7
+          m_Compatible:
+          - 0.1.7
+          - 0.1.8
+          - 2.0.0-beta
+          - 2.0.1-beta
+          - 2.0.2-preview
+          - 2.0.3-preview
+          - 2.0.5-preview
+          - 2.0.7-preview
+          - 2.0.8-preview
+          - 2.0.9-preview
+          - 2.0.10-preview
+          - 2.0.11-preview
+          - 2.0.12-preview
+          - 2.0.13-preview
+          - 2.0.14-preview
+          - 2.0.15-preview
+          - 2.0.16-preview
+          - 2.0.17-preview
+          - 2.1.0
+          - 2.1.1
+          - 2.1.2
+          - 2.1.3
+          - 2.1.4
+          - 2.1.5
+          - 2.1.6
+          - 2.1.7
+          m_Recommended: 2.1.7
+        m_Dependencies: []
+        m_ResolvedDependencies: []
+        m_Keywords: []
+        m_Author:
+          m_Name: 
+          m_Email: 
+          m_Url: 
+        m_HasRegistry: 1
+        m_Registry:
+          m_Name: 
+          m_Url: https://packages.unity.com
+          m_IsDefault: 1
+        m_HideInEditor: 1
+        m_DatePublishedTicks: 636959593270000000
+      IsInstalled: 0
+    - Name: com.unity.postprocessing
+      DisplayName: Post Processing
+      _Version: 2.0.10-preview
+      Description: The post-processing stack (v2) comes with a collection of effects
+        and image filters you can apply to your cameras to improve the visuals of
+        your games.
+      Category: 
+      State: 0
+      IsLatest: 0
+      Group: Packages
+      Type: 
+      Origin: 1
+      Errors: []
+      IsVerified: 0
+      Author: Unity Technologies Inc.
+      IsDiscoverable: 1
+      Samples: []
+      HasFullFetch: 0
+      Info:
+        m_PackageId: com.unity.postprocessing@2.1.7
+        m_IsDirectDependency: 1
+        m_Version: 2.1.7
+        m_Source: 1
+        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\ArtGame\ArtGame\Library\PackageCache\com.unity.postprocessing@2.1.7
+        m_AssetPath: Packages/com.unity.postprocessing
+        m_Name: com.unity.postprocessing
+        m_DisplayName: Post Processing
+        m_Category: 
+        m_Type: 
+        m_Description: The post-processing stack (v2) comes with a collection of effects
+          and image filters you can apply to your cameras to improve the visuals of
+          your games.
+        m_Status: 4
+        m_Errors: []
+        m_Versions:
+          m_All:
+          - 0.1.7
+          - 0.1.8
+          - 2.0.0-beta
+          - 2.0.1-beta
+          - 2.0.2-preview
+          - 2.0.3-preview
+          - 2.0.5-preview
+          - 2.0.7-preview
+          - 2.0.8-preview
+          - 2.0.9-preview
+          - 2.0.10-preview
+          - 2.0.11-preview
+          - 2.0.12-preview
+          - 2.0.13-preview
+          - 2.0.14-preview
+          - 2.0.15-preview
+          - 2.0.16-preview
+          - 2.0.17-preview
+          - 2.1.0
+          - 2.1.1
+          - 2.1.2
+          - 2.1.3
+          - 2.1.4
+          - 2.1.5
+          - 2.1.6
+          - 2.1.7
+          m_Compatible:
+          - 0.1.7
+          - 0.1.8
+          - 2.0.0-beta
+          - 2.0.1-beta
+          - 2.0.2-preview
+          - 2.0.3-preview
+          - 2.0.5-preview
+          - 2.0.7-preview
+          - 2.0.8-preview
+          - 2.0.9-preview
+          - 2.0.10-preview
+          - 2.0.11-preview
+          - 2.0.12-preview
+          - 2.0.13-preview
+          - 2.0.14-preview
+          - 2.0.15-preview
+          - 2.0.16-preview
+          - 2.0.17-preview
+          - 2.1.0
+          - 2.1.1
+          - 2.1.2
+          - 2.1.3
+          - 2.1.4
+          - 2.1.5
+          - 2.1.6
+          - 2.1.7
+          m_Recommended: 2.1.7
+        m_Dependencies: []
+        m_ResolvedDependencies: []
+        m_Keywords: []
+        m_Author:
+          m_Name: 
+          m_Email: 
+          m_Url: 
+        m_HasRegistry: 1
+        m_Registry:
+          m_Name: 
+          m_Url: https://packages.unity.com
+          m_IsDefault: 1
+        m_HideInEditor: 1
+        m_DatePublishedTicks: 636959593270000000
+      IsInstalled: 0
+    - Name: com.unity.postprocessing
+      DisplayName: Post Processing
+      _Version: 2.0.11-preview
+      Description: The post-processing stack (v2) comes with a collection of effects
+        and image filters you can apply to your cameras to improve the visuals of
+        your games.
+      Category: 
+      State: 0
+      IsLatest: 0
+      Group: Packages
+      Type: 
+      Origin: 1
+      Errors: []
+      IsVerified: 0
+      Author: Unity Technologies Inc.
+      IsDiscoverable: 1
+      Samples: []
+      HasFullFetch: 0
+      Info:
+        m_PackageId: com.unity.postprocessing@2.1.7
+        m_IsDirectDependency: 1
+        m_Version: 2.1.7
+        m_Source: 1
+        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\ArtGame\ArtGame\Library\PackageCache\com.unity.postprocessing@2.1.7
+        m_AssetPath: Packages/com.unity.postprocessing
+        m_Name: com.unity.postprocessing
+        m_DisplayName: Post Processing
+        m_Category: 
+        m_Type: 
+        m_Description: The post-processing stack (v2) comes with a collection of effects
+          and image filters you can apply to your cameras to improve the visuals of
+          your games.
+        m_Status: 4
+        m_Errors: []
+        m_Versions:
+          m_All:
+          - 0.1.7
+          - 0.1.8
+          - 2.0.0-beta
+          - 2.0.1-beta
+          - 2.0.2-preview
+          - 2.0.3-preview
+          - 2.0.5-preview
+          - 2.0.7-preview
+          - 2.0.8-preview
+          - 2.0.9-preview
+          - 2.0.10-preview
+          - 2.0.11-preview
+          - 2.0.12-preview
+          - 2.0.13-preview
+          - 2.0.14-preview
+          - 2.0.15-preview
+          - 2.0.16-preview
+          - 2.0.17-preview
+          - 2.1.0
+          - 2.1.1
+          - 2.1.2
+          - 2.1.3
+          - 2.1.4
+          - 2.1.5
+          - 2.1.6
+          - 2.1.7
+          m_Compatible:
+          - 0.1.7
+          - 0.1.8
+          - 2.0.0-beta
+          - 2.0.1-beta
+          - 2.0.2-preview
+          - 2.0.3-preview
+          - 2.0.5-preview
+          - 2.0.7-preview
+          - 2.0.8-preview
+          - 2.0.9-preview
+          - 2.0.10-preview
+          - 2.0.11-preview
+          - 2.0.12-preview
+          - 2.0.13-preview
+          - 2.0.14-preview
+          - 2.0.15-preview
+          - 2.0.16-preview
+          - 2.0.17-preview
+          - 2.1.0
+          - 2.1.1
+          - 2.1.2
+          - 2.1.3
+          - 2.1.4
+          - 2.1.5
+          - 2.1.6
+          - 2.1.7
+          m_Recommended: 2.1.7
+        m_Dependencies: []
+        m_ResolvedDependencies: []
+        m_Keywords: []
+        m_Author:
+          m_Name: 
+          m_Email: 
+          m_Url: 
+        m_HasRegistry: 1
+        m_Registry:
+          m_Name: 
+          m_Url: https://packages.unity.com
+          m_IsDefault: 1
+        m_HideInEditor: 1
+        m_DatePublishedTicks: 636959593270000000
+      IsInstalled: 0
+    - Name: com.unity.postprocessing
+      DisplayName: Post Processing
+      _Version: 2.0.12-preview
+      Description: The post-processing stack (v2) comes with a collection of effects
+        and image filters you can apply to your cameras to improve the visuals of
+        your games.
+      Category: 
+      State: 0
+      IsLatest: 0
+      Group: Packages
+      Type: 
+      Origin: 1
+      Errors: []
+      IsVerified: 0
+      Author: Unity Technologies Inc.
+      IsDiscoverable: 1
+      Samples: []
+      HasFullFetch: 0
+      Info:
+        m_PackageId: com.unity.postprocessing@2.1.7
+        m_IsDirectDependency: 1
+        m_Version: 2.1.7
+        m_Source: 1
+        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\ArtGame\ArtGame\Library\PackageCache\com.unity.postprocessing@2.1.7
+        m_AssetPath: Packages/com.unity.postprocessing
+        m_Name: com.unity.postprocessing
+        m_DisplayName: Post Processing
+        m_Category: 
+        m_Type: 
+        m_Description: The post-processing stack (v2) comes with a collection of effects
+          and image filters you can apply to your cameras to improve the visuals of
+          your games.
+        m_Status: 4
+        m_Errors: []
+        m_Versions:
+          m_All:
+          - 0.1.7
+          - 0.1.8
+          - 2.0.0-beta
+          - 2.0.1-beta
+          - 2.0.2-preview
+          - 2.0.3-preview
+          - 2.0.5-preview
+          - 2.0.7-preview
+          - 2.0.8-preview
+          - 2.0.9-preview
+          - 2.0.10-preview
+          - 2.0.11-preview
+          - 2.0.12-preview
+          - 2.0.13-preview
+          - 2.0.14-preview
+          - 2.0.15-preview
+          - 2.0.16-preview
+          - 2.0.17-preview
+          - 2.1.0
+          - 2.1.1
+          - 2.1.2
+          - 2.1.3
+          - 2.1.4
+          - 2.1.5
+          - 2.1.6
+          - 2.1.7
+          m_Compatible:
+          - 0.1.7
+          - 0.1.8
+          - 2.0.0-beta
+          - 2.0.1-beta
+          - 2.0.2-preview
+          - 2.0.3-preview
+          - 2.0.5-preview
+          - 2.0.7-preview
+          - 2.0.8-preview
+          - 2.0.9-preview
+          - 2.0.10-preview
+          - 2.0.11-preview
+          - 2.0.12-preview
+          - 2.0.13-preview
+          - 2.0.14-preview
+          - 2.0.15-preview
+          - 2.0.16-preview
+          - 2.0.17-preview
+          - 2.1.0
+          - 2.1.1
+          - 2.1.2
+          - 2.1.3
+          - 2.1.4
+          - 2.1.5
+          - 2.1.6
+          - 2.1.7
+          m_Recommended: 2.1.7
+        m_Dependencies: []
+        m_ResolvedDependencies: []
+        m_Keywords: []
+        m_Author:
+          m_Name: 
+          m_Email: 
+          m_Url: 
+        m_HasRegistry: 1
+        m_Registry:
+          m_Name: 
+          m_Url: https://packages.unity.com
+          m_IsDefault: 1
+        m_HideInEditor: 1
+        m_DatePublishedTicks: 636959593270000000
+      IsInstalled: 0
+    - Name: com.unity.postprocessing
+      DisplayName: Post Processing
+      _Version: 2.0.13-preview
+      Description: The post-processing stack (v2) comes with a collection of effects
+        and image filters you can apply to your cameras to improve the visuals of
+        your games.
+      Category: 
+      State: 0
+      IsLatest: 0
+      Group: Packages
+      Type: 
+      Origin: 1
+      Errors: []
+      IsVerified: 0
+      Author: Unity Technologies Inc.
+      IsDiscoverable: 1
+      Samples: []
+      HasFullFetch: 0
+      Info:
+        m_PackageId: com.unity.postprocessing@2.1.7
+        m_IsDirectDependency: 1
+        m_Version: 2.1.7
+        m_Source: 1
+        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\ArtGame\ArtGame\Library\PackageCache\com.unity.postprocessing@2.1.7
+        m_AssetPath: Packages/com.unity.postprocessing
+        m_Name: com.unity.postprocessing
+        m_DisplayName: Post Processing
+        m_Category: 
+        m_Type: 
+        m_Description: The post-processing stack (v2) comes with a collection of effects
+          and image filters you can apply to your cameras to improve the visuals of
+          your games.
+        m_Status: 4
+        m_Errors: []
+        m_Versions:
+          m_All:
+          - 0.1.7
+          - 0.1.8
+          - 2.0.0-beta
+          - 2.0.1-beta
+          - 2.0.2-preview
+          - 2.0.3-preview
+          - 2.0.5-preview
+          - 2.0.7-preview
+          - 2.0.8-preview
+          - 2.0.9-preview
+          - 2.0.10-preview
+          - 2.0.11-preview
+          - 2.0.12-preview
+          - 2.0.13-preview
+          - 2.0.14-preview
+          - 2.0.15-preview
+          - 2.0.16-preview
+          - 2.0.17-preview
+          - 2.1.0
+          - 2.1.1
+          - 2.1.2
+          - 2.1.3
+          - 2.1.4
+          - 2.1.5
+          - 2.1.6
+          - 2.1.7
+          m_Compatible:
+          - 0.1.7
+          - 0.1.8
+          - 2.0.0-beta
+          - 2.0.1-beta
+          - 2.0.2-preview
+          - 2.0.3-preview
+          - 2.0.5-preview
+          - 2.0.7-preview
+          - 2.0.8-preview
+          - 2.0.9-preview
+          - 2.0.10-preview
+          - 2.0.11-preview
+          - 2.0.12-preview
+          - 2.0.13-preview
+          - 2.0.14-preview
+          - 2.0.15-preview
+          - 2.0.16-preview
+          - 2.0.17-preview
+          - 2.1.0
+          - 2.1.1
+          - 2.1.2
+          - 2.1.3
+          - 2.1.4
+          - 2.1.5
+          - 2.1.6
+          - 2.1.7
+          m_Recommended: 2.1.7
+        m_Dependencies: []
+        m_ResolvedDependencies: []
+        m_Keywords: []
+        m_Author:
+          m_Name: 
+          m_Email: 
+          m_Url: 
+        m_HasRegistry: 1
+        m_Registry:
+          m_Name: 
+          m_Url: https://packages.unity.com
+          m_IsDefault: 1
+        m_HideInEditor: 1
+        m_DatePublishedTicks: 636959593270000000
+      IsInstalled: 0
+    - Name: com.unity.postprocessing
+      DisplayName: Post Processing
+      _Version: 2.0.14-preview
+      Description: The post-processing stack (v2) comes with a collection of effects
+        and image filters you can apply to your cameras to improve the visuals of
+        your games.
+      Category: 
+      State: 0
+      IsLatest: 0
+      Group: Packages
+      Type: 
+      Origin: 1
+      Errors: []
+      IsVerified: 0
+      Author: Unity Technologies Inc.
+      IsDiscoverable: 1
+      Samples: []
+      HasFullFetch: 0
+      Info:
+        m_PackageId: com.unity.postprocessing@2.1.7
+        m_IsDirectDependency: 1
+        m_Version: 2.1.7
+        m_Source: 1
+        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\ArtGame\ArtGame\Library\PackageCache\com.unity.postprocessing@2.1.7
+        m_AssetPath: Packages/com.unity.postprocessing
+        m_Name: com.unity.postprocessing
+        m_DisplayName: Post Processing
+        m_Category: 
+        m_Type: 
+        m_Description: The post-processing stack (v2) comes with a collection of effects
+          and image filters you can apply to your cameras to improve the visuals of
+          your games.
+        m_Status: 4
+        m_Errors: []
+        m_Versions:
+          m_All:
+          - 0.1.7
+          - 0.1.8
+          - 2.0.0-beta
+          - 2.0.1-beta
+          - 2.0.2-preview
+          - 2.0.3-preview
+          - 2.0.5-preview
+          - 2.0.7-preview
+          - 2.0.8-preview
+          - 2.0.9-preview
+          - 2.0.10-preview
+          - 2.0.11-preview
+          - 2.0.12-preview
+          - 2.0.13-preview
+          - 2.0.14-preview
+          - 2.0.15-preview
+          - 2.0.16-preview
+          - 2.0.17-preview
+          - 2.1.0
+          - 2.1.1
+          - 2.1.2
+          - 2.1.3
+          - 2.1.4
+          - 2.1.5
+          - 2.1.6
+          - 2.1.7
+          m_Compatible:
+          - 0.1.7
+          - 0.1.8
+          - 2.0.0-beta
+          - 2.0.1-beta
+          - 2.0.2-preview
+          - 2.0.3-preview
+          - 2.0.5-preview
+          - 2.0.7-preview
+          - 2.0.8-preview
+          - 2.0.9-preview
+          - 2.0.10-preview
+          - 2.0.11-preview
+          - 2.0.12-preview
+          - 2.0.13-preview
+          - 2.0.14-preview
+          - 2.0.15-preview
+          - 2.0.16-preview
+          - 2.0.17-preview
+          - 2.1.0
+          - 2.1.1
+          - 2.1.2
+          - 2.1.3
+          - 2.1.4
+          - 2.1.5
+          - 2.1.6
+          - 2.1.7
+          m_Recommended: 2.1.7
+        m_Dependencies: []
+        m_ResolvedDependencies: []
+        m_Keywords: []
+        m_Author:
+          m_Name: 
+          m_Email: 
+          m_Url: 
+        m_HasRegistry: 1
+        m_Registry:
+          m_Name: 
+          m_Url: https://packages.unity.com
+          m_IsDefault: 1
+        m_HideInEditor: 1
+        m_DatePublishedTicks: 636959593270000000
+      IsInstalled: 0
+    - Name: com.unity.postprocessing
+      DisplayName: Post Processing
+      _Version: 2.0.15-preview
+      Description: The post-processing stack (v2) comes with a collection of effects
+        and image filters you can apply to your cameras to improve the visuals of
+        your games.
+      Category: 
+      State: 0
+      IsLatest: 0
+      Group: Packages
+      Type: 
+      Origin: 1
+      Errors: []
+      IsVerified: 0
+      Author: Unity Technologies Inc.
+      IsDiscoverable: 1
+      Samples: []
+      HasFullFetch: 0
+      Info:
+        m_PackageId: com.unity.postprocessing@2.1.7
+        m_IsDirectDependency: 1
+        m_Version: 2.1.7
+        m_Source: 1
+        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\ArtGame\ArtGame\Library\PackageCache\com.unity.postprocessing@2.1.7
+        m_AssetPath: Packages/com.unity.postprocessing
+        m_Name: com.unity.postprocessing
+        m_DisplayName: Post Processing
+        m_Category: 
+        m_Type: 
+        m_Description: The post-processing stack (v2) comes with a collection of effects
+          and image filters you can apply to your cameras to improve the visuals of
+          your games.
+        m_Status: 4
+        m_Errors: []
+        m_Versions:
+          m_All:
+          - 0.1.7
+          - 0.1.8
+          - 2.0.0-beta
+          - 2.0.1-beta
+          - 2.0.2-preview
+          - 2.0.3-preview
+          - 2.0.5-preview
+          - 2.0.7-preview
+          - 2.0.8-preview
+          - 2.0.9-preview
+          - 2.0.10-preview
+          - 2.0.11-preview
+          - 2.0.12-preview
+          - 2.0.13-preview
+          - 2.0.14-preview
+          - 2.0.15-preview
+          - 2.0.16-preview
+          - 2.0.17-preview
+          - 2.1.0
+          - 2.1.1
+          - 2.1.2
+          - 2.1.3
+          - 2.1.4
+          - 2.1.5
+          - 2.1.6
+          - 2.1.7
+          m_Compatible:
+          - 0.1.7
+          - 0.1.8
+          - 2.0.0-beta
+          - 2.0.1-beta
+          - 2.0.2-preview
+          - 2.0.3-preview
+          - 2.0.5-preview
+          - 2.0.7-preview
+          - 2.0.8-preview
+          - 2.0.9-preview
+          - 2.0.10-preview
+          - 2.0.11-preview
+          - 2.0.12-preview
+          - 2.0.13-preview
+          - 2.0.14-preview
+          - 2.0.15-preview
+          - 2.0.16-preview
+          - 2.0.17-preview
+          - 2.1.0
+          - 2.1.1
+          - 2.1.2
+          - 2.1.3
+          - 2.1.4
+          - 2.1.5
+          - 2.1.6
+          - 2.1.7
+          m_Recommended: 2.1.7
+        m_Dependencies: []
+        m_ResolvedDependencies: []
+        m_Keywords: []
+        m_Author:
+          m_Name: 
+          m_Email: 
+          m_Url: 
+        m_HasRegistry: 1
+        m_Registry:
+          m_Name: 
+          m_Url: https://packages.unity.com
+          m_IsDefault: 1
+        m_HideInEditor: 1
+        m_DatePublishedTicks: 636959593270000000
+      IsInstalled: 0
+    - Name: com.unity.postprocessing
+      DisplayName: Post Processing
+      _Version: 2.0.16-preview
+      Description: The post-processing stack (v2) comes with a collection of effects
+        and image filters you can apply to your cameras to improve the visuals of
+        your games.
+      Category: 
+      State: 0
+      IsLatest: 0
+      Group: Packages
+      Type: 
+      Origin: 1
+      Errors: []
+      IsVerified: 0
+      Author: Unity Technologies Inc.
+      IsDiscoverable: 1
+      Samples: []
+      HasFullFetch: 0
+      Info:
+        m_PackageId: com.unity.postprocessing@2.1.7
+        m_IsDirectDependency: 1
+        m_Version: 2.1.7
+        m_Source: 1
+        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\ArtGame\ArtGame\Library\PackageCache\com.unity.postprocessing@2.1.7
+        m_AssetPath: Packages/com.unity.postprocessing
+        m_Name: com.unity.postprocessing
+        m_DisplayName: Post Processing
+        m_Category: 
+        m_Type: 
+        m_Description: The post-processing stack (v2) comes with a collection of effects
+          and image filters you can apply to your cameras to improve the visuals of
+          your games.
+        m_Status: 4
+        m_Errors: []
+        m_Versions:
+          m_All:
+          - 0.1.7
+          - 0.1.8
+          - 2.0.0-beta
+          - 2.0.1-beta
+          - 2.0.2-preview
+          - 2.0.3-preview
+          - 2.0.5-preview
+          - 2.0.7-preview
+          - 2.0.8-preview
+          - 2.0.9-preview
+          - 2.0.10-preview
+          - 2.0.11-preview
+          - 2.0.12-preview
+          - 2.0.13-preview
+          - 2.0.14-preview
+          - 2.0.15-preview
+          - 2.0.16-preview
+          - 2.0.17-preview
+          - 2.1.0
+          - 2.1.1
+          - 2.1.2
+          - 2.1.3
+          - 2.1.4
+          - 2.1.5
+          - 2.1.6
+          - 2.1.7
+          m_Compatible:
+          - 0.1.7
+          - 0.1.8
+          - 2.0.0-beta
+          - 2.0.1-beta
+          - 2.0.2-preview
+          - 2.0.3-preview
+          - 2.0.5-preview
+          - 2.0.7-preview
+          - 2.0.8-preview
+          - 2.0.9-preview
+          - 2.0.10-preview
+          - 2.0.11-preview
+          - 2.0.12-preview
+          - 2.0.13-preview
+          - 2.0.14-preview
+          - 2.0.15-preview
+          - 2.0.16-preview
+          - 2.0.17-preview
+          - 2.1.0
+          - 2.1.1
+          - 2.1.2
+          - 2.1.3
+          - 2.1.4
+          - 2.1.5
+          - 2.1.6
+          - 2.1.7
+          m_Recommended: 2.1.7
+        m_Dependencies: []
+        m_ResolvedDependencies: []
+        m_Keywords: []
+        m_Author:
+          m_Name: 
+          m_Email: 
+          m_Url: 
+        m_HasRegistry: 1
+        m_Registry:
+          m_Name: 
+          m_Url: https://packages.unity.com
+          m_IsDefault: 1
+        m_HideInEditor: 1
+        m_DatePublishedTicks: 636959593270000000
+      IsInstalled: 0
+    - Name: com.unity.postprocessing
+      DisplayName: Post Processing
+      _Version: 2.0.17-preview
+      Description: The post-processing stack (v2) comes with a collection of effects
+        and image filters you can apply to your cameras to improve the visuals of
+        your games.
+      Category: 
+      State: 0
+      IsLatest: 0
+      Group: Packages
+      Type: 
+      Origin: 1
+      Errors: []
+      IsVerified: 0
+      Author: Unity Technologies Inc.
+      IsDiscoverable: 1
+      Samples: []
+      HasFullFetch: 0
+      Info:
+        m_PackageId: com.unity.postprocessing@2.1.7
+        m_IsDirectDependency: 1
+        m_Version: 2.1.7
+        m_Source: 1
+        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\ArtGame\ArtGame\Library\PackageCache\com.unity.postprocessing@2.1.7
+        m_AssetPath: Packages/com.unity.postprocessing
+        m_Name: com.unity.postprocessing
+        m_DisplayName: Post Processing
+        m_Category: 
+        m_Type: 
+        m_Description: The post-processing stack (v2) comes with a collection of effects
+          and image filters you can apply to your cameras to improve the visuals of
+          your games.
+        m_Status: 4
+        m_Errors: []
+        m_Versions:
+          m_All:
+          - 0.1.7
+          - 0.1.8
+          - 2.0.0-beta
+          - 2.0.1-beta
+          - 2.0.2-preview
+          - 2.0.3-preview
+          - 2.0.5-preview
+          - 2.0.7-preview
+          - 2.0.8-preview
+          - 2.0.9-preview
+          - 2.0.10-preview
+          - 2.0.11-preview
+          - 2.0.12-preview
+          - 2.0.13-preview
+          - 2.0.14-preview
+          - 2.0.15-preview
+          - 2.0.16-preview
+          - 2.0.17-preview
+          - 2.1.0
+          - 2.1.1
+          - 2.1.2
+          - 2.1.3
+          - 2.1.4
+          - 2.1.5
+          - 2.1.6
+          - 2.1.7
+          m_Compatible:
+          - 0.1.7
+          - 0.1.8
+          - 2.0.0-beta
+          - 2.0.1-beta
+          - 2.0.2-preview
+          - 2.0.3-preview
+          - 2.0.5-preview
+          - 2.0.7-preview
+          - 2.0.8-preview
+          - 2.0.9-preview
+          - 2.0.10-preview
+          - 2.0.11-preview
+          - 2.0.12-preview
+          - 2.0.13-preview
+          - 2.0.14-preview
+          - 2.0.15-preview
+          - 2.0.16-preview
+          - 2.0.17-preview
+          - 2.1.0
+          - 2.1.1
+          - 2.1.2
+          - 2.1.3
+          - 2.1.4
+          - 2.1.5
+          - 2.1.6
+          - 2.1.7
+          m_Recommended: 2.1.7
+        m_Dependencies: []
+        m_ResolvedDependencies: []
+        m_Keywords: []
+        m_Author:
+          m_Name: 
+          m_Email: 
+          m_Url: 
+        m_HasRegistry: 1
+        m_Registry:
+          m_Name: 
+          m_Url: https://packages.unity.com
+          m_IsDefault: 1
+        m_HideInEditor: 1
+        m_DatePublishedTicks: 636959593270000000
+      IsInstalled: 0
+    - Name: com.unity.postprocessing
+      DisplayName: Post Processing
+      _Version: 2.1.0
+      Description: The post-processing stack (v2) comes with a collection of effects
+        and image filters you can apply to your cameras to improve the visuals of
+        your games.
+      Category: 
+      State: 0
+      IsLatest: 0
+      Group: Packages
+      Type: 
+      Origin: 1
+      Errors: []
+      IsVerified: 0
+      Author: Unity Technologies Inc.
+      IsDiscoverable: 1
+      Samples: []
+      HasFullFetch: 0
+      Info:
+        m_PackageId: com.unity.postprocessing@2.1.7
+        m_IsDirectDependency: 1
+        m_Version: 2.1.7
+        m_Source: 1
+        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\ArtGame\ArtGame\Library\PackageCache\com.unity.postprocessing@2.1.7
+        m_AssetPath: Packages/com.unity.postprocessing
+        m_Name: com.unity.postprocessing
+        m_DisplayName: Post Processing
+        m_Category: 
+        m_Type: 
+        m_Description: The post-processing stack (v2) comes with a collection of effects
+          and image filters you can apply to your cameras to improve the visuals of
+          your games.
+        m_Status: 4
+        m_Errors: []
+        m_Versions:
+          m_All:
+          - 0.1.7
+          - 0.1.8
+          - 2.0.0-beta
+          - 2.0.1-beta
+          - 2.0.2-preview
+          - 2.0.3-preview
+          - 2.0.5-preview
+          - 2.0.7-preview
+          - 2.0.8-preview
+          - 2.0.9-preview
+          - 2.0.10-preview
+          - 2.0.11-preview
+          - 2.0.12-preview
+          - 2.0.13-preview
+          - 2.0.14-preview
+          - 2.0.15-preview
+          - 2.0.16-preview
+          - 2.0.17-preview
+          - 2.1.0
+          - 2.1.1
+          - 2.1.2
+          - 2.1.3
+          - 2.1.4
+          - 2.1.5
+          - 2.1.6
+          - 2.1.7
+          m_Compatible:
+          - 0.1.7
+          - 0.1.8
+          - 2.0.0-beta
+          - 2.0.1-beta
+          - 2.0.2-preview
+          - 2.0.3-preview
+          - 2.0.5-preview
+          - 2.0.7-preview
+          - 2.0.8-preview
+          - 2.0.9-preview
+          - 2.0.10-preview
+          - 2.0.11-preview
+          - 2.0.12-preview
+          - 2.0.13-preview
+          - 2.0.14-preview
+          - 2.0.15-preview
+          - 2.0.16-preview
+          - 2.0.17-preview
+          - 2.1.0
+          - 2.1.1
+          - 2.1.2
+          - 2.1.3
+          - 2.1.4
+          - 2.1.5
+          - 2.1.6
+          - 2.1.7
+          m_Recommended: 2.1.7
+        m_Dependencies: []
+        m_ResolvedDependencies: []
+        m_Keywords: []
+        m_Author:
+          m_Name: 
+          m_Email: 
+          m_Url: 
+        m_HasRegistry: 1
+        m_Registry:
+          m_Name: 
+          m_Url: https://packages.unity.com
+          m_IsDefault: 1
+        m_HideInEditor: 1
+        m_DatePublishedTicks: 636959593270000000
+      IsInstalled: 0
+    - Name: com.unity.postprocessing
+      DisplayName: Post Processing
+      _Version: 2.1.1
+      Description: The post-processing stack (v2) comes with a collection of effects
+        and image filters you can apply to your cameras to improve the visuals of
+        your games.
+      Category: 
+      State: 0
+      IsLatest: 0
+      Group: Packages
+      Type: 
+      Origin: 1
+      Errors: []
+      IsVerified: 0
+      Author: Unity Technologies Inc.
+      IsDiscoverable: 1
+      Samples: []
+      HasFullFetch: 0
+      Info:
+        m_PackageId: com.unity.postprocessing@2.1.7
+        m_IsDirectDependency: 1
+        m_Version: 2.1.7
+        m_Source: 1
+        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\ArtGame\ArtGame\Library\PackageCache\com.unity.postprocessing@2.1.7
+        m_AssetPath: Packages/com.unity.postprocessing
+        m_Name: com.unity.postprocessing
+        m_DisplayName: Post Processing
+        m_Category: 
+        m_Type: 
+        m_Description: The post-processing stack (v2) comes with a collection of effects
+          and image filters you can apply to your cameras to improve the visuals of
+          your games.
+        m_Status: 4
+        m_Errors: []
+        m_Versions:
+          m_All:
+          - 0.1.7
+          - 0.1.8
+          - 2.0.0-beta
+          - 2.0.1-beta
+          - 2.0.2-preview
+          - 2.0.3-preview
+          - 2.0.5-preview
+          - 2.0.7-preview
+          - 2.0.8-preview
+          - 2.0.9-preview
+          - 2.0.10-preview
+          - 2.0.11-preview
+          - 2.0.12-preview
+          - 2.0.13-preview
+          - 2.0.14-preview
+          - 2.0.15-preview
+          - 2.0.16-preview
+          - 2.0.17-preview
+          - 2.1.0
+          - 2.1.1
+          - 2.1.2
+          - 2.1.3
+          - 2.1.4
+          - 2.1.5
+          - 2.1.6
+          - 2.1.7
+          m_Compatible:
+          - 0.1.7
+          - 0.1.8
+          - 2.0.0-beta
+          - 2.0.1-beta
+          - 2.0.2-preview
+          - 2.0.3-preview
+          - 2.0.5-preview
+          - 2.0.7-preview
+          - 2.0.8-preview
+          - 2.0.9-preview
+          - 2.0.10-preview
+          - 2.0.11-preview
+          - 2.0.12-preview
+          - 2.0.13-preview
+          - 2.0.14-preview
+          - 2.0.15-preview
+          - 2.0.16-preview
+          - 2.0.17-preview
+          - 2.1.0
+          - 2.1.1
+          - 2.1.2
+          - 2.1.3
+          - 2.1.4
+          - 2.1.5
+          - 2.1.6
+          - 2.1.7
+          m_Recommended: 2.1.7
+        m_Dependencies: []
+        m_ResolvedDependencies: []
+        m_Keywords: []
+        m_Author:
+          m_Name: 
+          m_Email: 
+          m_Url: 
+        m_HasRegistry: 1
+        m_Registry:
+          m_Name: 
+          m_Url: https://packages.unity.com
+          m_IsDefault: 1
+        m_HideInEditor: 1
+        m_DatePublishedTicks: 636959593270000000
+      IsInstalled: 0
+    - Name: com.unity.postprocessing
+      DisplayName: Post Processing
+      _Version: 2.1.2
+      Description: The post-processing stack (v2) comes with a collection of effects
+        and image filters you can apply to your cameras to improve the visuals of
+        your games.
+      Category: 
+      State: 0
+      IsLatest: 0
+      Group: Packages
+      Type: 
+      Origin: 1
+      Errors: []
+      IsVerified: 0
+      Author: Unity Technologies Inc.
+      IsDiscoverable: 1
+      Samples: []
+      HasFullFetch: 0
+      Info:
+        m_PackageId: com.unity.postprocessing@2.1.7
+        m_IsDirectDependency: 1
+        m_Version: 2.1.7
+        m_Source: 1
+        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\ArtGame\ArtGame\Library\PackageCache\com.unity.postprocessing@2.1.7
+        m_AssetPath: Packages/com.unity.postprocessing
+        m_Name: com.unity.postprocessing
+        m_DisplayName: Post Processing
+        m_Category: 
+        m_Type: 
+        m_Description: The post-processing stack (v2) comes with a collection of effects
+          and image filters you can apply to your cameras to improve the visuals of
+          your games.
+        m_Status: 4
+        m_Errors: []
+        m_Versions:
+          m_All:
+          - 0.1.7
+          - 0.1.8
+          - 2.0.0-beta
+          - 2.0.1-beta
+          - 2.0.2-preview
+          - 2.0.3-preview
+          - 2.0.5-preview
+          - 2.0.7-preview
+          - 2.0.8-preview
+          - 2.0.9-preview
+          - 2.0.10-preview
+          - 2.0.11-preview
+          - 2.0.12-preview
+          - 2.0.13-preview
+          - 2.0.14-preview
+          - 2.0.15-preview
+          - 2.0.16-preview
+          - 2.0.17-preview
+          - 2.1.0
+          - 2.1.1
+          - 2.1.2
+          - 2.1.3
+          - 2.1.4
+          - 2.1.5
+          - 2.1.6
+          - 2.1.7
+          m_Compatible:
+          - 0.1.7
+          - 0.1.8
+          - 2.0.0-beta
+          - 2.0.1-beta
+          - 2.0.2-preview
+          - 2.0.3-preview
+          - 2.0.5-preview
+          - 2.0.7-preview
+          - 2.0.8-preview
+          - 2.0.9-preview
+          - 2.0.10-preview
+          - 2.0.11-preview
+          - 2.0.12-preview
+          - 2.0.13-preview
+          - 2.0.14-preview
+          - 2.0.15-preview
+          - 2.0.16-preview
+          - 2.0.17-preview
+          - 2.1.0
+          - 2.1.1
+          - 2.1.2
+          - 2.1.3
+          - 2.1.4
+          - 2.1.5
+          - 2.1.6
+          - 2.1.7
+          m_Recommended: 2.1.7
+        m_Dependencies: []
+        m_ResolvedDependencies: []
+        m_Keywords: []
+        m_Author:
+          m_Name: 
+          m_Email: 
+          m_Url: 
+        m_HasRegistry: 1
+        m_Registry:
+          m_Name: 
+          m_Url: https://packages.unity.com
+          m_IsDefault: 1
+        m_HideInEditor: 1
+        m_DatePublishedTicks: 636959593270000000
+      IsInstalled: 0
+    - Name: com.unity.postprocessing
+      DisplayName: Post Processing
+      _Version: 2.1.3
+      Description: The post-processing stack (v2) comes with a collection of effects
+        and image filters you can apply to your cameras to improve the visuals of
+        your games.
+      Category: 
+      State: 0
+      IsLatest: 0
+      Group: Packages
+      Type: 
+      Origin: 1
+      Errors: []
+      IsVerified: 0
+      Author: Unity Technologies Inc.
+      IsDiscoverable: 1
+      Samples: []
+      HasFullFetch: 0
+      Info:
+        m_PackageId: com.unity.postprocessing@2.1.7
+        m_IsDirectDependency: 1
+        m_Version: 2.1.7
+        m_Source: 1
+        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\ArtGame\ArtGame\Library\PackageCache\com.unity.postprocessing@2.1.7
+        m_AssetPath: Packages/com.unity.postprocessing
+        m_Name: com.unity.postprocessing
+        m_DisplayName: Post Processing
+        m_Category: 
+        m_Type: 
+        m_Description: The post-processing stack (v2) comes with a collection of effects
+          and image filters you can apply to your cameras to improve the visuals of
+          your games.
+        m_Status: 4
+        m_Errors: []
+        m_Versions:
+          m_All:
+          - 0.1.7
+          - 0.1.8
+          - 2.0.0-beta
+          - 2.0.1-beta
+          - 2.0.2-preview
+          - 2.0.3-preview
+          - 2.0.5-preview
+          - 2.0.7-preview
+          - 2.0.8-preview
+          - 2.0.9-preview
+          - 2.0.10-preview
+          - 2.0.11-preview
+          - 2.0.12-preview
+          - 2.0.13-preview
+          - 2.0.14-preview
+          - 2.0.15-preview
+          - 2.0.16-preview
+          - 2.0.17-preview
+          - 2.1.0
+          - 2.1.1
+          - 2.1.2
+          - 2.1.3
+          - 2.1.4
+          - 2.1.5
+          - 2.1.6
+          - 2.1.7
+          m_Compatible:
+          - 0.1.7
+          - 0.1.8
+          - 2.0.0-beta
+          - 2.0.1-beta
+          - 2.0.2-preview
+          - 2.0.3-preview
+          - 2.0.5-preview
+          - 2.0.7-preview
+          - 2.0.8-preview
+          - 2.0.9-preview
+          - 2.0.10-preview
+          - 2.0.11-preview
+          - 2.0.12-preview
+          - 2.0.13-preview
+          - 2.0.14-preview
+          - 2.0.15-preview
+          - 2.0.16-preview
+          - 2.0.17-preview
+          - 2.1.0
+          - 2.1.1
+          - 2.1.2
+          - 2.1.3
+          - 2.1.4
+          - 2.1.5
+          - 2.1.6
+          - 2.1.7
+          m_Recommended: 2.1.7
+        m_Dependencies: []
+        m_ResolvedDependencies: []
+        m_Keywords: []
+        m_Author:
+          m_Name: 
+          m_Email: 
+          m_Url: 
+        m_HasRegistry: 1
+        m_Registry:
+          m_Name: 
+          m_Url: https://packages.unity.com
+          m_IsDefault: 1
+        m_HideInEditor: 1
+        m_DatePublishedTicks: 636959593270000000
+      IsInstalled: 0
+    - Name: com.unity.postprocessing
+      DisplayName: Post Processing
+      _Version: 2.1.4
+      Description: The post-processing stack (v2) comes with a collection of effects
+        and image filters you can apply to your cameras to improve the visuals of
+        your games.
+      Category: 
+      State: 0
+      IsLatest: 0
+      Group: Packages
+      Type: 
+      Origin: 1
+      Errors: []
+      IsVerified: 0
+      Author: Unity Technologies Inc.
+      IsDiscoverable: 1
+      Samples: []
+      HasFullFetch: 0
+      Info:
+        m_PackageId: com.unity.postprocessing@2.1.7
+        m_IsDirectDependency: 1
+        m_Version: 2.1.7
+        m_Source: 1
+        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\ArtGame\ArtGame\Library\PackageCache\com.unity.postprocessing@2.1.7
+        m_AssetPath: Packages/com.unity.postprocessing
+        m_Name: com.unity.postprocessing
+        m_DisplayName: Post Processing
+        m_Category: 
+        m_Type: 
+        m_Description: The post-processing stack (v2) comes with a collection of effects
+          and image filters you can apply to your cameras to improve the visuals of
+          your games.
+        m_Status: 4
+        m_Errors: []
+        m_Versions:
+          m_All:
+          - 0.1.7
+          - 0.1.8
+          - 2.0.0-beta
+          - 2.0.1-beta
+          - 2.0.2-preview
+          - 2.0.3-preview
+          - 2.0.5-preview
+          - 2.0.7-preview
+          - 2.0.8-preview
+          - 2.0.9-preview
+          - 2.0.10-preview
+          - 2.0.11-preview
+          - 2.0.12-preview
+          - 2.0.13-preview
+          - 2.0.14-preview
+          - 2.0.15-preview
+          - 2.0.16-preview
+          - 2.0.17-preview
+          - 2.1.0
+          - 2.1.1
+          - 2.1.2
+          - 2.1.3
+          - 2.1.4
+          - 2.1.5
+          - 2.1.6
+          - 2.1.7
+          m_Compatible:
+          - 0.1.7
+          - 0.1.8
+          - 2.0.0-beta
+          - 2.0.1-beta
+          - 2.0.2-preview
+          - 2.0.3-preview
+          - 2.0.5-preview
+          - 2.0.7-preview
+          - 2.0.8-preview
+          - 2.0.9-preview
+          - 2.0.10-preview
+          - 2.0.11-preview
+          - 2.0.12-preview
+          - 2.0.13-preview
+          - 2.0.14-preview
+          - 2.0.15-preview
+          - 2.0.16-preview
+          - 2.0.17-preview
+          - 2.1.0
+          - 2.1.1
+          - 2.1.2
+          - 2.1.3
+          - 2.1.4
+          - 2.1.5
+          - 2.1.6
+          - 2.1.7
+          m_Recommended: 2.1.7
+        m_Dependencies: []
+        m_ResolvedDependencies: []
+        m_Keywords: []
+        m_Author:
+          m_Name: 
+          m_Email: 
+          m_Url: 
+        m_HasRegistry: 1
+        m_Registry:
+          m_Name: 
+          m_Url: https://packages.unity.com
+          m_IsDefault: 1
+        m_HideInEditor: 1
+        m_DatePublishedTicks: 636959593270000000
+      IsInstalled: 0
+    - Name: com.unity.postprocessing
+      DisplayName: Post Processing
+      _Version: 2.1.5
+      Description: The post-processing stack (v2) comes with a collection of effects
+        and image filters you can apply to your cameras to improve the visuals of
+        your games.
+      Category: 
+      State: 0
+      IsLatest: 0
+      Group: Packages
+      Type: 
+      Origin: 1
+      Errors: []
+      IsVerified: 0
+      Author: Unity Technologies Inc.
+      IsDiscoverable: 1
+      Samples: []
+      HasFullFetch: 0
+      Info:
+        m_PackageId: com.unity.postprocessing@2.1.7
+        m_IsDirectDependency: 1
+        m_Version: 2.1.7
+        m_Source: 1
+        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\ArtGame\ArtGame\Library\PackageCache\com.unity.postprocessing@2.1.7
+        m_AssetPath: Packages/com.unity.postprocessing
+        m_Name: com.unity.postprocessing
+        m_DisplayName: Post Processing
+        m_Category: 
+        m_Type: 
+        m_Description: The post-processing stack (v2) comes with a collection of effects
+          and image filters you can apply to your cameras to improve the visuals of
+          your games.
+        m_Status: 4
+        m_Errors: []
+        m_Versions:
+          m_All:
+          - 0.1.7
+          - 0.1.8
+          - 2.0.0-beta
+          - 2.0.1-beta
+          - 2.0.2-preview
+          - 2.0.3-preview
+          - 2.0.5-preview
+          - 2.0.7-preview
+          - 2.0.8-preview
+          - 2.0.9-preview
+          - 2.0.10-preview
+          - 2.0.11-preview
+          - 2.0.12-preview
+          - 2.0.13-preview
+          - 2.0.14-preview
+          - 2.0.15-preview
+          - 2.0.16-preview
+          - 2.0.17-preview
+          - 2.1.0
+          - 2.1.1
+          - 2.1.2
+          - 2.1.3
+          - 2.1.4
+          - 2.1.5
+          - 2.1.6
+          - 2.1.7
+          m_Compatible:
+          - 0.1.7
+          - 0.1.8
+          - 2.0.0-beta
+          - 2.0.1-beta
+          - 2.0.2-preview
+          - 2.0.3-preview
+          - 2.0.5-preview
+          - 2.0.7-preview
+          - 2.0.8-preview
+          - 2.0.9-preview
+          - 2.0.10-preview
+          - 2.0.11-preview
+          - 2.0.12-preview
+          - 2.0.13-preview
+          - 2.0.14-preview
+          - 2.0.15-preview
+          - 2.0.16-preview
+          - 2.0.17-preview
+          - 2.1.0
+          - 2.1.1
+          - 2.1.2
+          - 2.1.3
+          - 2.1.4
+          - 2.1.5
+          - 2.1.6
+          - 2.1.7
+          m_Recommended: 2.1.7
+        m_Dependencies: []
+        m_ResolvedDependencies: []
+        m_Keywords: []
+        m_Author:
+          m_Name: 
+          m_Email: 
+          m_Url: 
+        m_HasRegistry: 1
+        m_Registry:
+          m_Name: 
+          m_Url: https://packages.unity.com
+          m_IsDefault: 1
+        m_HideInEditor: 1
+        m_DatePublishedTicks: 636959593270000000
+      IsInstalled: 0
+    - Name: com.unity.postprocessing
+      DisplayName: Post Processing
+      _Version: 2.1.6
+      Description: The post-processing stack (v2) comes with a collection of effects
+        and image filters you can apply to your cameras to improve the visuals of
+        your games.
+      Category: 
+      State: 0
+      IsLatest: 0
+      Group: Packages
+      Type: 
+      Origin: 1
+      Errors: []
+      IsVerified: 0
+      Author: Unity Technologies Inc.
+      IsDiscoverable: 1
+      Samples: []
+      HasFullFetch: 0
+      Info:
+        m_PackageId: com.unity.postprocessing@2.1.7
+        m_IsDirectDependency: 1
+        m_Version: 2.1.7
+        m_Source: 1
+        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\ArtGame\ArtGame\Library\PackageCache\com.unity.postprocessing@2.1.7
+        m_AssetPath: Packages/com.unity.postprocessing
+        m_Name: com.unity.postprocessing
+        m_DisplayName: Post Processing
+        m_Category: 
+        m_Type: 
+        m_Description: The post-processing stack (v2) comes with a collection of effects
+          and image filters you can apply to your cameras to improve the visuals of
+          your games.
+        m_Status: 4
+        m_Errors: []
+        m_Versions:
+          m_All:
+          - 0.1.7
+          - 0.1.8
+          - 2.0.0-beta
+          - 2.0.1-beta
+          - 2.0.2-preview
+          - 2.0.3-preview
+          - 2.0.5-preview
+          - 2.0.7-preview
+          - 2.0.8-preview
+          - 2.0.9-preview
+          - 2.0.10-preview
+          - 2.0.11-preview
+          - 2.0.12-preview
+          - 2.0.13-preview
+          - 2.0.14-preview
+          - 2.0.15-preview
+          - 2.0.16-preview
+          - 2.0.17-preview
+          - 2.1.0
+          - 2.1.1
+          - 2.1.2
+          - 2.1.3
+          - 2.1.4
+          - 2.1.5
+          - 2.1.6
+          - 2.1.7
+          m_Compatible:
+          - 0.1.7
+          - 0.1.8
+          - 2.0.0-beta
+          - 2.0.1-beta
+          - 2.0.2-preview
+          - 2.0.3-preview
+          - 2.0.5-preview
+          - 2.0.7-preview
+          - 2.0.8-preview
+          - 2.0.9-preview
+          - 2.0.10-preview
+          - 2.0.11-preview
+          - 2.0.12-preview
+          - 2.0.13-preview
+          - 2.0.14-preview
+          - 2.0.15-preview
+          - 2.0.16-preview
+          - 2.0.17-preview
+          - 2.1.0
+          - 2.1.1
+          - 2.1.2
+          - 2.1.3
+          - 2.1.4
+          - 2.1.5
+          - 2.1.6
+          - 2.1.7
+          m_Recommended: 2.1.7
+        m_Dependencies: []
+        m_ResolvedDependencies: []
+        m_Keywords: []
+        m_Author:
+          m_Name: 
+          m_Email: 
+          m_Url: 
+        m_HasRegistry: 1
+        m_Registry:
+          m_Name: 
+          m_Url: https://packages.unity.com
+          m_IsDefault: 1
+        m_HideInEditor: 1
+        m_DatePublishedTicks: 636959593270000000
+      IsInstalled: 0
+    - Name: com.unity.postprocessing
+      DisplayName: Post Processing
+      _Version: 2.1.7
+      Description: The post-processing stack (v2) comes with a collection of effects
+        and image filters you can apply to your cameras to improve the visuals of
+        your games.
+      Category: 
+      State: 0
+      IsLatest: 1
+      Group: Packages
+      Type: 
+      Origin: 1
+      Errors: []
+      IsVerified: 1
+      Author: Unity Technologies Inc.
+      IsDiscoverable: 1
+      Samples: []
+      HasFullFetch: 1
+      Info:
+        m_PackageId: com.unity.postprocessing@2.1.7
+        m_IsDirectDependency: 1
+        m_Version: 2.1.7
+        m_Source: 1
+        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\ArtGame\ArtGame\Library\PackageCache\com.unity.postprocessing@2.1.7
+        m_AssetPath: Packages/com.unity.postprocessing
+        m_Name: com.unity.postprocessing
+        m_DisplayName: Post Processing
+        m_Category: 
+        m_Type: 
+        m_Description: The post-processing stack (v2) comes with a collection of effects
+          and image filters you can apply to your cameras to improve the visuals of
+          your games.
+        m_Status: 4
+        m_Errors: []
+        m_Versions:
+          m_All:
+          - 0.1.7
+          - 0.1.8
+          - 2.0.0-beta
+          - 2.0.1-beta
+          - 2.0.2-preview
+          - 2.0.3-preview
+          - 2.0.5-preview
+          - 2.0.7-preview
+          - 2.0.8-preview
+          - 2.0.9-preview
+          - 2.0.10-preview
+          - 2.0.11-preview
+          - 2.0.12-preview
+          - 2.0.13-preview
+          - 2.0.14-preview
+          - 2.0.15-preview
+          - 2.0.16-preview
+          - 2.0.17-preview
+          - 2.1.0
+          - 2.1.1
+          - 2.1.2
+          - 2.1.3
+          - 2.1.4
+          - 2.1.5
+          - 2.1.6
+          - 2.1.7
+          m_Compatible:
+          - 0.1.7
+          - 0.1.8
+          - 2.0.0-beta
+          - 2.0.1-beta
+          - 2.0.2-preview
+          - 2.0.3-preview
+          - 2.0.5-preview
+          - 2.0.7-preview
+          - 2.0.8-preview
+          - 2.0.9-preview
+          - 2.0.10-preview
+          - 2.0.11-preview
+          - 2.0.12-preview
+          - 2.0.13-preview
+          - 2.0.14-preview
+          - 2.0.15-preview
+          - 2.0.16-preview
+          - 2.0.17-preview
+          - 2.1.0
+          - 2.1.1
+          - 2.1.2
+          - 2.1.3
+          - 2.1.4
+          - 2.1.5
+          - 2.1.6
+          - 2.1.7
+          m_Recommended: 2.1.7
+        m_Dependencies: []
+        m_ResolvedDependencies: []
+        m_Keywords: []
+        m_Author:
+          m_Name: 
+          m_Email: 
+          m_Url: 
+        m_HasRegistry: 1
+        m_Registry:
+          m_Name: 
+          m_Url: https://packages.unity.com
+          m_IsDefault: 1
+        m_HideInEditor: 1
+        m_DatePublishedTicks: 636959593270000000
+      IsInstalled: 1
+    - Name: com.unity.render-pipelines.lightweight
+      DisplayName: Lightweight RP
+      _Version: 6.9.0
+      Description: The Lightweight Render Pipeline (LWRP) is a prebuilt Scriptable
+        Render Pipeline, made by Unity. The technology offers graphics that are scalable
+        to mobile platforms, and you can also use it for higher-end consoles and PCs.
+        Youre able to achieve quick rendering at a high quality without needing compute
+        shader technology. LWRP uses simplified, physically based Lighting and Materials.
+        The LWRP uses single-pass forward rendering. Use this pipeline to get optimized
+        real-time performance on several platforms.
+      Category: 
+      State: 0
+      IsLatest: 0
+      Group: Packages
+      Type: 
+      Origin: 1
+      Errors: []
+      IsVerified: 0
+      Author: Unity Technologies Inc.
+      IsDiscoverable: 1
+      Samples: []
+      HasFullFetch: 0
+      Info:
+        m_PackageId: com.unity.render-pipelines.lightweight@6.9.1
+        m_IsDirectDependency: 1
+        m_Version: 6.9.1
+        m_Source: 1
+        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\ArtGame\ArtGame\Library\PackageCache\com.unity.render-pipelines.lightweight@6.9.1
+        m_AssetPath: Packages/com.unity.render-pipelines.lightweight
+        m_Name: com.unity.render-pipelines.lightweight
+        m_DisplayName: Lightweight RP
+        m_Category: 
+        m_Type: 
+        m_Description: The Lightweight Render Pipeline (LWRP) is a prebuilt Scriptable
+          Render Pipeline, made by Unity. The technology offers graphics that are
+          scalable to mobile platforms, and you can also use it for higher-end consoles
+          and PCs. Youre able to achieve quick rendering at a high quality without
+          needing compute shader technology. LWRP uses simplified, physically based
+          Lighting and Materials. The LWRP uses single-pass forward rendering. Use
+          this pipeline to get optimized real-time performance on several platforms.
+        m_Status: 4
+        m_Errors: []
+        m_Versions:
+          m_All:
+          - 0.1.21
+          - 0.1.28
+          - 1.0.0-beta
+          - 1.0.1-beta
+          - 1.1.1-preview
+          - 1.1.2-preview
+          - 1.1.4-preview
+          - 1.1.5-preview
+          - 1.1.8-preview
+          - 1.1.10-preview
+          - 1.1.11-preview
+          - 2.0.1-preview
+          - 2.0.3-preview
+          - 2.0.4-preview
+          - 2.0.4-preview.1
+          - 2.0.5-preview
+          - 2.0.6-preview
+          - 2.0.7-preview
+          - 2.0.8-preview
+          - 3.0.0-preview
+          - 3.1.0-preview
+          - 3.3.0-preview
+          - 4.0.0-preview
+          - 4.0.1-preview
+          - 4.1.0-preview
+          - 4.2.0-preview
+          - 4.3.0-preview
+          - 4.6.0-preview
+          - 4.8.0-preview
+          - 4.9.0-preview
+          - 4.10.0-preview
+          - 5.0.0-preview
+          - 5.1.0
+          - 5.2.0
+          - 5.2.1
+          - 5.2.2
+          - 5.2.3
+          - 5.3.1
+          - 5.6.1
+          - 5.7.2
+          - 5.8.2
+          - 5.9.0
+          - 5.10.0
+          - 5.13.0
+          - 5.16.1
+          - 6.5.2
+          - 6.5.3
+          - 6.7.1
+          - 6.9.0
+          - 6.9.1
+          - 7.0.0
+          - 7.0.1
+          - 7.1.1
+          - 7.1.2
+          m_Compatible:
+          - 6.9.0
+          - 6.9.1
+          m_Recommended: 6.9.1
+        m_Dependencies:
+        - m_Name: com.unity.postprocessing
+          m_Version: 2.1.6
+        - m_Name: com.unity.render-pipelines.core
+          m_Version: 6.9.1
+        - m_Name: com.unity.shadergraph
+          m_Version: 6.9.1
+        m_ResolvedDependencies:
+        - m_Name: com.unity.postprocessing
+          m_Version: 2.1.7
+        - m_Name: com.unity.render-pipelines.core
+          m_Version: 6.9.1
+        - m_Name: com.unity.shadergraph
+          m_Version: 6.9.1
+        m_Keywords: []
+        m_Author:
+          m_Name: 
+          m_Email: 
+          m_Url: 
+        m_HasRegistry: 1
+        m_Registry:
+          m_Name: 
+          m_Url: https://packages.unity.com
+          m_IsDefault: 1
+        m_HideInEditor: 1
+        m_DatePublishedTicks: 637000526550000000
+      IsInstalled: 0
+    - Name: com.unity.render-pipelines.lightweight
+      DisplayName: Lightweight RP
+      _Version: 6.9.1
+      Description: The Lightweight Render Pipeline (LWRP) is a prebuilt Scriptable
+        Render Pipeline, made by Unity. The technology offers graphics that are scalable
+        to mobile platforms, and you can also use it for higher-end consoles and PCs.
+        Youre able to achieve quick rendering at a high quality without needing compute
+        shader technology. LWRP uses simplified, physically based Lighting and Materials.
+        The LWRP uses single-pass forward rendering. Use this pipeline to get optimized
+        real-time performance on several platforms.
+      Category: 
+      State: 0
+      IsLatest: 1
+      Group: Packages
+      Type: 
+      Origin: 1
+      Errors: []
+      IsVerified: 1
+      Author: Unity Technologies Inc.
+      IsDiscoverable: 1
+      Samples: []
+      HasFullFetch: 1
+      Info:
+        m_PackageId: com.unity.render-pipelines.lightweight@6.9.1
+        m_IsDirectDependency: 1
+        m_Version: 6.9.1
+        m_Source: 1
+        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\ArtGame\ArtGame\Library\PackageCache\com.unity.render-pipelines.lightweight@6.9.1
+        m_AssetPath: Packages/com.unity.render-pipelines.lightweight
+        m_Name: com.unity.render-pipelines.lightweight
+        m_DisplayName: Lightweight RP
+        m_Category: 
+        m_Type: 
+        m_Description: The Lightweight Render Pipeline (LWRP) is a prebuilt Scriptable
+          Render Pipeline, made by Unity. The technology offers graphics that are
+          scalable to mobile platforms, and you can also use it for higher-end consoles
+          and PCs. Youre able to achieve quick rendering at a high quality without
+          needing compute shader technology. LWRP uses simplified, physically based
+          Lighting and Materials. The LWRP uses single-pass forward rendering. Use
+          this pipeline to get optimized real-time performance on several platforms.
+        m_Status: 4
+        m_Errors: []
+        m_Versions:
+          m_All:
+          - 0.1.21
+          - 0.1.28
+          - 1.0.0-beta
+          - 1.0.1-beta
+          - 1.1.1-preview
+          - 1.1.2-preview
+          - 1.1.4-preview
+          - 1.1.5-preview
+          - 1.1.8-preview
+          - 1.1.10-preview
+          - 1.1.11-preview
+          - 2.0.1-preview
+          - 2.0.3-preview
+          - 2.0.4-preview
+          - 2.0.4-preview.1
+          - 2.0.5-preview
+          - 2.0.6-preview
+          - 2.0.7-preview
+          - 2.0.8-preview
+          - 3.0.0-preview
+          - 3.1.0-preview
+          - 3.3.0-preview
+          - 4.0.0-preview
+          - 4.0.1-preview
+          - 4.1.0-preview
+          - 4.2.0-preview
+          - 4.3.0-preview
+          - 4.6.0-preview
+          - 4.8.0-preview
+          - 4.9.0-preview
+          - 4.10.0-preview
+          - 5.0.0-preview
+          - 5.1.0
+          - 5.2.0
+          - 5.2.1
+          - 5.2.2
+          - 5.2.3
+          - 5.3.1
+          - 5.6.1
+          - 5.7.2
+          - 5.8.2
+          - 5.9.0
+          - 5.10.0
+          - 5.13.0
+          - 5.16.1
+          - 6.5.2
+          - 6.5.3
+          - 6.7.1
+          - 6.9.0
+          - 6.9.1
+          - 7.0.0
+          - 7.0.1
+          - 7.1.1
+          - 7.1.2
+          m_Compatible:
+          - 6.9.0
+          - 6.9.1
+          m_Recommended: 6.9.1
+        m_Dependencies:
+        - m_Name: com.unity.postprocessing
+          m_Version: 2.1.6
+        - m_Name: com.unity.render-pipelines.core
+          m_Version: 6.9.1
+        - m_Name: com.unity.shadergraph
+          m_Version: 6.9.1
+        m_ResolvedDependencies:
+        - m_Name: com.unity.postprocessing
+          m_Version: 2.1.7
+        - m_Name: com.unity.render-pipelines.core
+          m_Version: 6.9.1
+        - m_Name: com.unity.shadergraph
+          m_Version: 6.9.1
+        m_Keywords: []
+        m_Author:
+          m_Name: 
+          m_Email: 
+          m_Url: 
+        m_HasRegistry: 1
+        m_Registry:
+          m_Name: 
+          m_Url: https://packages.unity.com
+          m_IsDefault: 1
+        m_HideInEditor: 1
+        m_DatePublishedTicks: 637000526550000000
       IsInstalled: 1
     - Name: com.unity.test-framework
       DisplayName: Test Framework
@@ -9731,6 +12537,468 @@ MonoBehaviour:
           m_IsDefault: 0
         m_HideInEditor: 1
         m_DatePublishedTicks: 0
+      IsInstalled: 1
+    - Name: com.unity.render-pipelines.core
+      DisplayName: Core RP Library
+      _Version: 6.9.0
+      Description: Helper library for SRP that contains a new Shader Library, and
+        utility functions that can be used to implement a custom SRP. This library
+        is currently used by both the High Definition Render Pipeline and the Lightweight
+        Render Pipeline.
+      Category: 
+      State: 0
+      IsLatest: 0
+      Group: Packages
+      Type: 
+      Origin: 1
+      Errors: []
+      IsVerified: 0
+      Author: Unity Technologies Inc.
+      IsDiscoverable: 1
+      Samples: []
+      HasFullFetch: 0
+      Info:
+        m_PackageId: com.unity.render-pipelines.core@6.9.1
+        m_IsDirectDependency: 0
+        m_Version: 6.9.1
+        m_Source: 1
+        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\ArtGame\ArtGame\Library\PackageCache\com.unity.render-pipelines.core@6.9.1
+        m_AssetPath: Packages/com.unity.render-pipelines.core
+        m_Name: com.unity.render-pipelines.core
+        m_DisplayName: Core RP Library
+        m_Category: 
+        m_Type: 
+        m_Description: Helper library for SRP that contains a new Shader Library,
+          and utility functions that can be used to implement a custom SRP. This library
+          is currently used by both the High Definition Render Pipeline and the Lightweight
+          Render Pipeline.
+        m_Status: 4
+        m_Errors: []
+        m_Versions:
+          m_All:
+          - 0.1.21
+          - 0.1.27
+          - 0.1.28
+          - 1.0.0-beta
+          - 1.0.1-beta
+          - 1.1.1-preview
+          - 1.1.2-preview
+          - 1.1.4-preview
+          - 1.1.5-preview
+          - 1.1.8-preview
+          - 1.1.10-preview
+          - 1.1.11-preview
+          - 2.0.1-preview
+          - 2.0.3-preview
+          - 2.0.4-preview
+          - 2.0.4-preview.1
+          - 2.0.5-preview
+          - 2.0.6-preview
+          - 2.0.7-preview
+          - 2.0.8-preview
+          - 3.0.0-preview
+          - 3.1.0-preview
+          - 3.3.0-preview
+          - 4.0.0-preview
+          - 4.0.1-preview
+          - 4.1.0-preview
+          - 4.2.0-preview
+          - 4.3.0-preview
+          - 4.6.0-preview
+          - 4.8.0-preview
+          - 4.9.0-preview
+          - 4.10.0-preview
+          - 5.0.0-preview
+          - 5.1.0
+          - 5.2.0
+          - 5.2.1
+          - 5.2.2
+          - 5.2.3
+          - 5.3.1
+          - 5.6.1
+          - 5.7.2
+          - 5.8.2
+          - 5.9.0
+          - 5.10.0
+          - 5.13.0
+          - 5.16.1
+          - 6.5.2
+          - 6.5.3
+          - 6.7.1
+          - 6.9.0
+          - 6.9.1
+          - 7.0.0
+          - 7.0.1
+          - 7.1.1
+          - 7.1.2
+          m_Compatible:
+          - 6.9.0
+          - 6.9.1
+          m_Recommended: 6.9.1
+        m_Dependencies: []
+        m_ResolvedDependencies: []
+        m_Keywords: []
+        m_Author:
+          m_Name: 
+          m_Email: 
+          m_Url: 
+        m_HasRegistry: 1
+        m_Registry:
+          m_Name: 
+          m_Url: https://packages.unity.com
+          m_IsDefault: 1
+        m_HideInEditor: 1
+        m_DatePublishedTicks: 637000417990000000
+      IsInstalled: 0
+    - Name: com.unity.render-pipelines.core
+      DisplayName: Core RP Library
+      _Version: 6.9.1
+      Description: Helper library for SRP that contains a new Shader Library, and
+        utility functions that can be used to implement a custom SRP. This library
+        is currently used by both the High Definition Render Pipeline and the Lightweight
+        Render Pipeline.
+      Category: 
+      State: 0
+      IsLatest: 1
+      Group: Packages
+      Type: 
+      Origin: 1
+      Errors: []
+      IsVerified: 1
+      Author: Unity Technologies Inc.
+      IsDiscoverable: 1
+      Samples: []
+      HasFullFetch: 1
+      Info:
+        m_PackageId: com.unity.render-pipelines.core@6.9.1
+        m_IsDirectDependency: 0
+        m_Version: 6.9.1
+        m_Source: 1
+        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\ArtGame\ArtGame\Library\PackageCache\com.unity.render-pipelines.core@6.9.1
+        m_AssetPath: Packages/com.unity.render-pipelines.core
+        m_Name: com.unity.render-pipelines.core
+        m_DisplayName: Core RP Library
+        m_Category: 
+        m_Type: 
+        m_Description: Helper library for SRP that contains a new Shader Library,
+          and utility functions that can be used to implement a custom SRP. This library
+          is currently used by both the High Definition Render Pipeline and the Lightweight
+          Render Pipeline.
+        m_Status: 4
+        m_Errors: []
+        m_Versions:
+          m_All:
+          - 0.1.21
+          - 0.1.27
+          - 0.1.28
+          - 1.0.0-beta
+          - 1.0.1-beta
+          - 1.1.1-preview
+          - 1.1.2-preview
+          - 1.1.4-preview
+          - 1.1.5-preview
+          - 1.1.8-preview
+          - 1.1.10-preview
+          - 1.1.11-preview
+          - 2.0.1-preview
+          - 2.0.3-preview
+          - 2.0.4-preview
+          - 2.0.4-preview.1
+          - 2.0.5-preview
+          - 2.0.6-preview
+          - 2.0.7-preview
+          - 2.0.8-preview
+          - 3.0.0-preview
+          - 3.1.0-preview
+          - 3.3.0-preview
+          - 4.0.0-preview
+          - 4.0.1-preview
+          - 4.1.0-preview
+          - 4.2.0-preview
+          - 4.3.0-preview
+          - 4.6.0-preview
+          - 4.8.0-preview
+          - 4.9.0-preview
+          - 4.10.0-preview
+          - 5.0.0-preview
+          - 5.1.0
+          - 5.2.0
+          - 5.2.1
+          - 5.2.2
+          - 5.2.3
+          - 5.3.1
+          - 5.6.1
+          - 5.7.2
+          - 5.8.2
+          - 5.9.0
+          - 5.10.0
+          - 5.13.0
+          - 5.16.1
+          - 6.5.2
+          - 6.5.3
+          - 6.7.1
+          - 6.9.0
+          - 6.9.1
+          - 7.0.0
+          - 7.0.1
+          - 7.1.1
+          - 7.1.2
+          m_Compatible:
+          - 6.9.0
+          - 6.9.1
+          m_Recommended: 6.9.1
+        m_Dependencies: []
+        m_ResolvedDependencies: []
+        m_Keywords: []
+        m_Author:
+          m_Name: 
+          m_Email: 
+          m_Url: 
+        m_HasRegistry: 1
+        m_Registry:
+          m_Name: 
+          m_Url: https://packages.unity.com
+          m_IsDefault: 1
+        m_HideInEditor: 1
+        m_DatePublishedTicks: 637000417990000000
+      IsInstalled: 1
+    - Name: com.unity.shadergraph
+      DisplayName: Shader Graph
+      _Version: 6.9.0
+      Description: The Shader Graph package adds support for a visual shader editing
+        tool into Unity. This tool can be used by artists to create shaders in a visual
+        way instead of having to require code editing. Specific render pipelines can
+        implement specific graph features. Currently the Shader Graph is supported
+        on the High Definition Rendering Pipeline and the Lightweight Rendering Pipeline.
+      Category: 
+      State: 0
+      IsLatest: 0
+      Group: Packages
+      Type: 
+      Origin: 1
+      Errors: []
+      IsVerified: 0
+      Author: Unity Technologies Inc.
+      IsDiscoverable: 1
+      Samples: []
+      HasFullFetch: 0
+      Info:
+        m_PackageId: com.unity.shadergraph@6.9.1
+        m_IsDirectDependency: 0
+        m_Version: 6.9.1
+        m_Source: 1
+        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\ArtGame\ArtGame\Library\PackageCache\com.unity.shadergraph@6.9.1
+        m_AssetPath: Packages/com.unity.shadergraph
+        m_Name: com.unity.shadergraph
+        m_DisplayName: Shader Graph
+        m_Category: 
+        m_Type: 
+        m_Description: The Shader Graph package adds support for a visual shader editing
+          tool into Unity. This tool can be used by artists to create shaders in a
+          visual way instead of having to require code editing. Specific render pipelines
+          can implement specific graph features. Currently the Shader Graph is supported
+          on the High Definition Rendering Pipeline and the Lightweight Rendering
+          Pipeline.
+        m_Status: 4
+        m_Errors: []
+        m_Versions:
+          m_All:
+          - 0.1.8
+          - 0.1.9
+          - 0.1.17
+          - 1.0.0-beta
+          - 1.1.1-preview
+          - 1.1.2-preview
+          - 1.1.3-preview
+          - 1.1.4-preview
+          - 1.1.5-preview
+          - 1.1.6-preview
+          - 1.1.8-preview
+          - 1.1.9-preview
+          - 2.0.1-preview
+          - 2.0.3-preview
+          - 2.0.4-preview
+          - 2.0.4-preview.1
+          - 2.0.5-preview
+          - 2.0.6-preview
+          - 2.0.7-preview
+          - 2.0.8-preview
+          - 3.0.0-preview
+          - 3.1.0-preview
+          - 3.3.0-preview
+          - 4.0.0-preview
+          - 4.0.1-preview
+          - 4.1.0-preview
+          - 4.2.0-preview
+          - 4.3.0-preview
+          - 4.6.0-preview
+          - 4.8.0-preview
+          - 4.9.0-preview
+          - 4.10.0-preview
+          - 5.0.0-preview
+          - 5.1.0
+          - 5.2.0
+          - 5.2.1
+          - 5.2.2
+          - 5.2.3
+          - 5.3.1
+          - 5.6.1
+          - 5.7.2
+          - 5.8.2
+          - 5.9.0
+          - 5.10.0
+          - 5.13.0
+          - 5.16.1
+          - 6.5.2
+          - 6.5.3
+          - 6.7.1
+          - 6.9.0
+          - 6.9.1
+          - 7.0.0
+          - 7.0.1
+          - 7.1.1
+          - 7.1.2
+          m_Compatible:
+          - 6.9.0
+          - 6.9.1
+          m_Recommended: 6.9.1
+        m_Dependencies:
+        - m_Name: com.unity.render-pipelines.core
+          m_Version: 6.9.1
+        m_ResolvedDependencies:
+        - m_Name: com.unity.render-pipelines.core
+          m_Version: 6.9.1
+        m_Keywords: []
+        m_Author:
+          m_Name: 
+          m_Email: 
+          m_Url: 
+        m_HasRegistry: 1
+        m_Registry:
+          m_Name: 
+          m_Url: https://packages.unity.com
+          m_IsDefault: 1
+        m_HideInEditor: 1
+        m_DatePublishedTicks: 637000418300000000
+      IsInstalled: 0
+    - Name: com.unity.shadergraph
+      DisplayName: Shader Graph
+      _Version: 6.9.1
+      Description: The Shader Graph package adds support for a visual shader editing
+        tool into Unity. This tool can be used by artists to create shaders in a visual
+        way instead of having to require code editing. Specific render pipelines can
+        implement specific graph features. Currently the Shader Graph is supported
+        on the High Definition Rendering Pipeline and the Lightweight Rendering Pipeline.
+      Category: 
+      State: 0
+      IsLatest: 1
+      Group: Packages
+      Type: 
+      Origin: 1
+      Errors: []
+      IsVerified: 1
+      Author: Unity Technologies Inc.
+      IsDiscoverable: 1
+      Samples: []
+      HasFullFetch: 1
+      Info:
+        m_PackageId: com.unity.shadergraph@6.9.1
+        m_IsDirectDependency: 0
+        m_Version: 6.9.1
+        m_Source: 1
+        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\ArtGame\ArtGame\Library\PackageCache\com.unity.shadergraph@6.9.1
+        m_AssetPath: Packages/com.unity.shadergraph
+        m_Name: com.unity.shadergraph
+        m_DisplayName: Shader Graph
+        m_Category: 
+        m_Type: 
+        m_Description: The Shader Graph package adds support for a visual shader editing
+          tool into Unity. This tool can be used by artists to create shaders in a
+          visual way instead of having to require code editing. Specific render pipelines
+          can implement specific graph features. Currently the Shader Graph is supported
+          on the High Definition Rendering Pipeline and the Lightweight Rendering
+          Pipeline.
+        m_Status: 4
+        m_Errors: []
+        m_Versions:
+          m_All:
+          - 0.1.8
+          - 0.1.9
+          - 0.1.17
+          - 1.0.0-beta
+          - 1.1.1-preview
+          - 1.1.2-preview
+          - 1.1.3-preview
+          - 1.1.4-preview
+          - 1.1.5-preview
+          - 1.1.6-preview
+          - 1.1.8-preview
+          - 1.1.9-preview
+          - 2.0.1-preview
+          - 2.0.3-preview
+          - 2.0.4-preview
+          - 2.0.4-preview.1
+          - 2.0.5-preview
+          - 2.0.6-preview
+          - 2.0.7-preview
+          - 2.0.8-preview
+          - 3.0.0-preview
+          - 3.1.0-preview
+          - 3.3.0-preview
+          - 4.0.0-preview
+          - 4.0.1-preview
+          - 4.1.0-preview
+          - 4.2.0-preview
+          - 4.3.0-preview
+          - 4.6.0-preview
+          - 4.8.0-preview
+          - 4.9.0-preview
+          - 4.10.0-preview
+          - 5.0.0-preview
+          - 5.1.0
+          - 5.2.0
+          - 5.2.1
+          - 5.2.2
+          - 5.2.3
+          - 5.3.1
+          - 5.6.1
+          - 5.7.2
+          - 5.8.2
+          - 5.9.0
+          - 5.10.0
+          - 5.13.0
+          - 5.16.1
+          - 6.5.2
+          - 6.5.3
+          - 6.7.1
+          - 6.9.0
+          - 6.9.1
+          - 7.0.0
+          - 7.0.1
+          - 7.1.1
+          - 7.1.2
+          m_Compatible:
+          - 6.9.0
+          - 6.9.1
+          m_Recommended: 6.9.1
+        m_Dependencies:
+        - m_Name: com.unity.render-pipelines.core
+          m_Version: 6.9.1
+        m_ResolvedDependencies:
+        - m_Name: com.unity.render-pipelines.core
+          m_Version: 6.9.1
+        m_Keywords: []
+        m_Author:
+          m_Name: 
+          m_Email: 
+          m_Url: 
+        m_HasRegistry: 1
+        m_Registry:
+          m_Name: 
+          m_Url: https://packages.unity.com
+          m_IsDefault: 1
+        m_HideInEditor: 1
+        m_DatePublishedTicks: 637000418300000000
       IsInstalled: 1
     listPackages:
     - Name: com.unity.cinemachine
@@ -96431,19 +99699,124 @@ MonoBehaviour:
         m_HideInEditor: 1
         m_DatePublishedTicks: 636930181110000000
       IsInstalled: 0
+    - Name: com.unity.postprocessing
+      DisplayName: Post Processing
+      _Version: 2.1.7
+      Description: The post-processing stack (v2) comes with a collection of effects
+        and image filters you can apply to your cameras to improve the visuals of
+        your games.
+      Category: 
+      State: 0
+      IsLatest: 1
+      Group: Packages
+      Type: 
+      Origin: 1
+      Errors: []
+      IsVerified: 1
+      Author: Unity Technologies Inc.
+      IsDiscoverable: 0
+      Samples: []
+      HasFullFetch: 1
+      Info:
+        m_PackageId: com.unity.postprocessing@2.1.7
+        m_IsDirectDependency: 0
+        m_Version: 2.1.7
+        m_Source: 1
+        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\ArtGame\ArtGame\Library\PackageCache\com.unity.postprocessing@2.1.7
+        m_AssetPath: Packages/com.unity.postprocessing
+        m_Name: com.unity.postprocessing
+        m_DisplayName: Post Processing
+        m_Category: 
+        m_Type: 
+        m_Description: The post-processing stack (v2) comes with a collection of effects
+          and image filters you can apply to your cameras to improve the visuals of
+          your games.
+        m_Status: 1
+        m_Errors: []
+        m_Versions:
+          m_All:
+          - 0.1.7
+          - 0.1.8
+          - 2.0.0-beta
+          - 2.0.1-beta
+          - 2.0.2-preview
+          - 2.0.3-preview
+          - 2.0.5-preview
+          - 2.0.7-preview
+          - 2.0.8-preview
+          - 2.0.9-preview
+          - 2.0.10-preview
+          - 2.0.11-preview
+          - 2.0.12-preview
+          - 2.0.13-preview
+          - 2.0.14-preview
+          - 2.0.15-preview
+          - 2.0.16-preview
+          - 2.0.17-preview
+          - 2.1.0
+          - 2.1.1
+          - 2.1.2
+          - 2.1.3
+          - 2.1.4
+          - 2.1.5
+          - 2.1.6
+          - 2.1.7
+          m_Compatible:
+          - 0.1.7
+          - 0.1.8
+          - 2.0.0-beta
+          - 2.0.1-beta
+          - 2.0.2-preview
+          - 2.0.3-preview
+          - 2.0.5-preview
+          - 2.0.7-preview
+          - 2.0.8-preview
+          - 2.0.9-preview
+          - 2.0.10-preview
+          - 2.0.11-preview
+          - 2.0.12-preview
+          - 2.0.13-preview
+          - 2.0.14-preview
+          - 2.0.15-preview
+          - 2.0.16-preview
+          - 2.0.17-preview
+          - 2.1.0
+          - 2.1.1
+          - 2.1.2
+          - 2.1.3
+          - 2.1.4
+          - 2.1.5
+          - 2.1.6
+          - 2.1.7
+          m_Recommended: 2.1.7
+        m_Dependencies: []
+        m_ResolvedDependencies: []
+        m_Keywords: []
+        m_Author:
+          m_Name: 
+          m_Email: 
+          m_Url: 
+        m_HasRegistry: 1
+        m_Registry:
+          m_Name: 
+          m_Url: https://packages.unity.com
+          m_IsDefault: 1
+        m_HideInEditor: 1
+        m_DatePublishedTicks: 636959593270000000
+      IsInstalled: 0
     listPackagesVersion: 16
-    listPackagesOfflineVersion: 15
+    listPackagesOfflineVersion: 16
     searchOperationOngoing: 1
     listOperationOngoing: 1
     listOperationOfflineOngoing: 1
   SearchFilter:
-    SearchText: cinem
+    SearchText: post
   SelectionManager:
     ListSelection:
       States: []
     SearchSelection:
       States:
-      - PackageId: com.unity.cinemachine@2.3.4
+      - PackageId: com.unity.postprocessing@2.1.7
         Expanded: 0
         SeeAllVersions: 0
         Selected: 1
@@ -96511,6 +99884,10 @@ MonoBehaviour:
         Expanded: 0
         SeeAllVersions: 0
         Selected: 0
+      - PackageId: com.unity.cinemachine@2.3.4
+        Expanded: 0
+        SeeAllVersions: 0
+        Selected: 0
       - PackageId: com.unity.render-pipelines.core@6.9.1
         Expanded: 0
         SeeAllVersions: 0
@@ -96571,8 +99948,8 @@ MonoBehaviour:
         Expanded: 0
         SeeAllVersions: 0
         Selected: 0
-      - PackageId: com.unity.postprocessing@2.1.7
-        Expanded: 0
+      - PackageId: com.unity.postprocessing@2.1.6
+        Expanded: 1
         SeeAllVersions: 0
         Selected: 0
       - PackageId: com.unity.probuilder@4.0.5
