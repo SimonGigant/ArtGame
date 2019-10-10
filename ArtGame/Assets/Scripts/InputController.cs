@@ -10,6 +10,8 @@ public class InputController : MonoBehaviour
     public CubeSphere planet;
     public MeshDeformer md;
     public MeshDeformerInput mdi;
+    public ParticleSystem[] p;
+
 
     private void Start()
     {
@@ -73,6 +75,7 @@ public class InputController : MonoBehaviour
         if (MidiMaster.GetKey(Convert.ToInt32("41", 16)) > 0)
         {
             Transformations.Instance.RotateBubbles(0, 30f);
+            p[2].Play();
         }
         // F3
         if (MidiMaster.GetKeyUp(Convert.ToInt32("41", 16)))
@@ -99,21 +102,25 @@ public class InputController : MonoBehaviour
         if (MidiMaster.GetKeyDown(Convert.ToInt32("45", 16)))
         {
             InteractionManager.Instance.sounds[5].Play();
+            p[0].Play();
         }
         if (MidiMaster.GetKey(Convert.ToInt32("45", 16)) > 0)
         {
             Transformations.Instance.GrowMoon(0, 0.001f);
             Transformations.Instance.GrowForms(0, 0.02f);
+
         }
         // A3
         if (MidiMaster.GetKeyUp(Convert.ToInt32("45", 16)))
         {
             InteractionManager.Instance.sounds[5].Stop();
+            p[0].Stop();
         }
         // B3
         if (MidiMaster.GetKeyDown(Convert.ToInt32("47", 16)))
         {
             InteractionManager.Instance.sounds[6].Play();
+            p[4].Play();
         }
         if (MidiMaster.GetKey(Convert.ToInt32("47", 16)) > 0)
         {
@@ -151,6 +158,7 @@ public class InputController : MonoBehaviour
             Transformations.Instance.GrowMoon(1, 0.001f);
             Transformations.Instance.GrowMoon(2, 0.001f);
             Transformations.Instance.GrowBubble(3, 0.0005f);
+            p[1].Play();
         }
         // D4
         if (MidiMaster.GetKeyUp(Convert.ToInt32("4A", 16)))
@@ -166,6 +174,7 @@ public class InputController : MonoBehaviour
         {
             Transformations.Instance.GrowMoon(0, 0.001f);
             Transformations.Instance.GrowMoon(2, 0.001f);
+            Transformations.Instance.PunctualDisform(-25, 20, 2, 0.1f);
         }
         // E4
         if (MidiMaster.GetKeyUp(Convert.ToInt32("4C", 16)))
@@ -225,9 +234,9 @@ public class InputController : MonoBehaviour
         }
         if (MidiMaster.GetKey(Convert.ToInt32("53", 16)) > 0)
         {
-            Transformations.Instance.RotateBubbles(3, -20f);
-            Transformations.Instance.RotateBubbles(2, 15f);
-            Transformations.Instance.GrowForms(3, 0.005f);
+            //Transformations.Instance.RotateBubbles(3, -20f);
+            //Transformations.Instance.RotateBubbles(2, 15f);
+            //Transformations.Instance.GrowForms(3, 0.005f);
         }
         // B4
         if (MidiMaster.GetKeyUp(Convert.ToInt32("53", 16)))
@@ -287,7 +296,19 @@ public class InputController : MonoBehaviour
         {
             InteractionManager.Instance.percus[5].Play();
             Transformations.Instance.Rotate(-30f);
+            p[5].Play();
         }
+
+        if (MidiMaster.GetKey(Convert.ToInt32("49", 16)) > 0)
+        {  
+          
+        }
+
+        if (MidiMaster.GetKeyUp(Convert.ToInt32("49", 16)))
+        {
+           
+        }
+
         // D#4
         if (MidiMaster.GetKeyDown(Convert.ToInt32("4B", 16)))
         {

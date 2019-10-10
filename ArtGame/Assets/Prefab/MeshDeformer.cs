@@ -26,9 +26,12 @@ public class MeshDeformer : MonoBehaviour
 
     }
 
-    public void AddDeformingForce(Vector3 point, float force)
+    public void AddDeformingForce(Vector3 point, float force, float springForce = 20f, float damping = 5f)
     {
         point = transform.InverseTransformPoint(point);
+        this.springForce = springForce;
+        this.damping = damping;
+
         for (int i = 0; i < displacedVertices.Length; i++)
         {
             AddForceToVertex(i, point, force);
