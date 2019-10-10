@@ -90,7 +90,10 @@
 	<object class="MixerBusPanner" id="{d33425e2-7717-4d14-867e-a01fb704f822}" />
 	<object class="SingleSound" id="{eb44ddd0-cc8c-41b0-8430-46bf9434b66a}">
 		<property name="length">
-			<value>6</value>
+			<value>5.9850000000000021</value>
+		</property>
+		<property name="timelockedOffset">
+			<value>0.014999999999999999</value>
 		</property>
 		<relationship name="fadeOutCurve">
 			<destination>{336a83e9-31cd-456c-8912-4e011861566a}</destination>
@@ -120,6 +123,7 @@
 		<relationship name="effects">
 			<destination>{547ba9ba-07dc-4d00-b4df-d88f549a2d87}</destination>
 			<destination>{c6acb3a7-a152-4e1c-91b4-74ada20661cc}</destination>
+			<destination>{7b631a2c-d6a0-429d-b3e8-0de4f1eaef4c}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{6be69cea-6580-4fb4-b097-79f256a15e66}" />
@@ -141,9 +145,14 @@
 	<object class="MixerBusPanner" id="{41da6c33-22dc-46fe-9bc7-560263301ebf}" />
 	<object class="MixerBusFader" id="{547ba9ba-07dc-4d00-b4df-d88f549a2d87}" />
 	<object class="SpatialiserEffect" id="{c6acb3a7-a152-4e1c-91b4-74ada20661cc}" />
+	<object class="ThreeEQEffect" id="{7b631a2c-d6a0-429d-b3e8-0de4f1eaef4c}">
+		<property name="lowGain">
+			<value>-17.5</value>
+		</property>
+	</object>
 	<object class="AutomationPoint" id="{a718cb59-544b-48ea-afae-f50312cbe257}">
 		<property name="position">
-			<value>3.1000000000000001</value>
+			<value>3.0850000000000013</value>
 		</property>
 		<property name="value">
 			<value>1</value>
@@ -154,7 +163,7 @@
 	</object>
 	<object class="AutomationPoint" id="{3ebbff38-e458-4a56-b916-d352acd186c4}">
 		<property name="position">
-			<value>6</value>
+			<value>5.9850000000000003</value>
 		</property>
 		<property name="value">
 			<value>0</value>

@@ -92,6 +92,9 @@
 		<property name="length">
 			<value>4.2000000000000002</value>
 		</property>
+		<relationship name="fadeInCurve">
+			<destination>{03048510-7ea4-43fd-bd5d-c21ac0cae9f2}</destination>
+		</relationship>
 		<relationship name="fadeOutCurve">
 			<destination>{0d13901c-b106-4a1e-a1a0-6d7ee8ec3c95}</destination>
 		</relationship>
@@ -124,6 +127,14 @@
 	</object>
 	<object class="MixerBusPanner" id="{32dc0438-7095-48e5-9442-df80ec58073e}" />
 	<object class="MixerBusFader" id="{9fe1edd2-2954-4319-898f-232b6adfaf1b}" />
+	<object class="FadeCurve" id="{03048510-7ea4-43fd-bd5d-c21ac0cae9f2}">
+		<relationship name="startPoint">
+			<destination>{ac5b6896-eacc-492b-87be-f80e1c404f0d}</destination>
+		</relationship>
+		<relationship name="endPoint">
+			<destination>{783f3cf3-3d91-48de-a2b6-ecd2209b48bf}</destination>
+		</relationship>
+	</object>
 	<object class="FadeCurve" id="{0d13901c-b106-4a1e-a1a0-6d7ee8ec3c95}">
 		<relationship name="startPoint">
 			<destination>{1619fa84-5175-4e85-a959-7297d114395a}</destination>
@@ -141,6 +152,25 @@
 	<object class="MixerBusPanner" id="{eaf2845f-1521-44fc-98d0-532e0f8e2bbe}" />
 	<object class="MixerBusFader" id="{cab9a148-ebeb-4891-be27-aea61035d53f}" />
 	<object class="SpatialiserEffect" id="{1d3cd17b-6068-46ce-b2fc-bdc3e0246542}" />
+	<object class="AutomationPoint" id="{ac5b6896-eacc-492b-87be-f80e1c404f0d}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="value">
+			<value>0</value>
+		</property>
+		<property name="curveShape">
+			<value>-0.2547189</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{783f3cf3-3d91-48de-a2b6-ecd2209b48bf}">
+		<property name="position">
+			<value>0.040000000000000001</value>
+		</property>
+		<property name="value">
+			<value>1</value>
+		</property>
+	</object>
 	<object class="AutomationPoint" id="{1619fa84-5175-4e85-a959-7297d114395a}">
 		<property name="position">
 			<value>1.9000000000000004</value>
@@ -163,13 +193,13 @@
 	<object class="MixerBusFader" id="{28c99f35-83f6-4261-84f0-ede205c8425b}" />
 	<object class="SFXReverbEffect" id="{b1b556e1-4e03-4232-a591-e0b2cb7408ca}">
 		<property name="decayTime">
-			<value>13000</value>
+			<value>14000</value>
 		</property>
 		<property name="earlyDelay">
 			<value>120</value>
 		</property>
 		<property name="HFDecayRatio">
-			<value>54</value>
+			<value>55</value>
 		</property>
 		<property name="lowShelfFrequency">
 			<value>330</value>
@@ -181,7 +211,7 @@
 			<value>560</value>
 		</property>
 		<property name="earlyLateMix">
-			<value>59</value>
+			<value>66</value>
 		</property>
 		<property name="wetLevel">
 			<value>10</value>

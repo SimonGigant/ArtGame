@@ -92,6 +92,9 @@
 		<property name="length">
 			<value>6</value>
 		</property>
+		<relationship name="fadeInCurve">
+			<destination>{5d08439f-b6cd-4eed-9654-16c92ed7ba75}</destination>
+		</relationship>
 		<relationship name="fadeOutCurve">
 			<destination>{5e2deb3b-8af7-4621-9ab9-ed59dd0be74f}</destination>
 		</relationship>
@@ -124,6 +127,14 @@
 	</object>
 	<object class="MixerBusPanner" id="{41b6887e-5008-43f1-ae91-ea699cc56c03}" />
 	<object class="MixerBusFader" id="{fd9ee8cd-ecce-4a8e-9ba2-9b30adf32cd3}" />
+	<object class="FadeCurve" id="{5d08439f-b6cd-4eed-9654-16c92ed7ba75}">
+		<relationship name="startPoint">
+			<destination>{219f3991-dbd0-40ec-91cb-92e9222f5bfd}</destination>
+		</relationship>
+		<relationship name="endPoint">
+			<destination>{23842579-3534-4192-83bc-c73e152a9078}</destination>
+		</relationship>
+	</object>
 	<object class="FadeCurve" id="{5e2deb3b-8af7-4621-9ab9-ed59dd0be74f}">
 		<relationship name="startPoint">
 			<destination>{89639202-9eb7-4a18-a4fd-ffff93e098eb}</destination>
@@ -136,11 +147,31 @@
 		<relationship name="effects">
 			<destination>{19926af8-f72b-4664-8189-8d9cbaf98d8b}</destination>
 			<destination>{380288f7-34e6-4d4b-9acb-f15bd9b2fd5b}</destination>
+			<destination>{1773b944-70c7-401d-99c1-b33697d9842d}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{137ab661-9fd1-4acf-8e8b-054f2dafc0e8}" />
 	<object class="MixerBusFader" id="{1a6651d4-86e4-4642-9ae6-79fbb2de4d02}" />
 	<object class="SpatialiserEffect" id="{aece47e6-4254-4bcd-8c62-1167fdaad8c1}" />
+	<object class="AutomationPoint" id="{219f3991-dbd0-40ec-91cb-92e9222f5bfd}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="value">
+			<value>0</value>
+		</property>
+		<property name="curveShape">
+			<value>-0.2547189</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{23842579-3534-4192-83bc-c73e152a9078}">
+		<property name="position">
+			<value>0.01</value>
+		</property>
+		<property name="value">
+			<value>1</value>
+		</property>
+	</object>
 	<object class="AutomationPoint" id="{89639202-9eb7-4a18-a4fd-ffff93e098eb}">
 		<property name="position">
 			<value>3.1000000000000001</value>
@@ -188,6 +219,11 @@
 		</property>
 		<property name="dryLevel">
 			<value>10</value>
+		</property>
+	</object>
+	<object class="ThreeEQEffect" id="{1773b944-70c7-401d-99c1-b33697d9842d}">
+		<property name="lowGain">
+			<value>-17.5</value>
 		</property>
 	</object>
 </objects>
