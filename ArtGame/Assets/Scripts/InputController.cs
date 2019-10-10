@@ -259,6 +259,7 @@ public class InputController : MonoBehaviour
                 Transformations.Instance.Begin();
             }
             InteractionManager.Instance.sounds[10].Play();
+            p[7].Play();
         }
         if (MidiMaster.GetKey(Convert.ToInt32("4D", 16)) > 0 || Input.GetButton("10"))
         {
@@ -270,6 +271,7 @@ public class InputController : MonoBehaviour
         if (MidiMaster.GetKeyUp(Convert.ToInt32("4D", 16)) || Input.GetButtonUp("10"))
         {
             InteractionManager.Instance.sounds[10].Stop();
+            p[7].Stop();
         }
         // G4
         if (MidiMaster.GetKeyDown(Convert.ToInt32("4F", 16)) || Input.GetButtonDown("11"))
@@ -392,6 +394,7 @@ public class InputController : MonoBehaviour
             }
             Transformations.Instance.PunctualDisform(2f);
             InteractionManager.Instance.percus[2].Play();
+            p[6].Play();
             counter = 0f;
         }
         // G#3
