@@ -22,6 +22,7 @@ public class InteractionManager : MonoBehaviour
 
     public void Update()
     {
+
         /*if (Input.GetButton("0"))
         {
             Transformations.Instance.Begin();

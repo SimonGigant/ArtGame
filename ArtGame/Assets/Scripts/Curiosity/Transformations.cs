@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 public class Transformations : MonoBehaviour
 {
@@ -32,6 +34,7 @@ public class Transformations : MonoBehaviour
     public float force = 3f;
     public float forceOffset = 0.1f;
     [SerializeField] private ParticleSystem particles;
+    public FadeIn fade;
 
     public void Start()
     {
@@ -60,7 +63,7 @@ public class Transformations : MonoBehaviour
                 FirstGrowMoon(0);
                 yield return new WaitForSeconds(1);
                 FirstGrowMoon(1);
-                yield return new WaitForSeconds(30);
+                yield return new WaitForSeconds(1);
                 FirstGrowMoon(2);
                 break;
             }
@@ -92,6 +95,7 @@ public class Transformations : MonoBehaviour
     public void Begin()
     {
         StartCoroutine("Grow");
+        fade.Fade();
     }
 
     public void Squeeze()
@@ -102,6 +106,7 @@ public class Transformations : MonoBehaviour
     public void StartVanish()
     {
         StartCoroutine("Vanish");
+        fade.FadeOut();
     }
 
     public void Rotate(float acceleration)
