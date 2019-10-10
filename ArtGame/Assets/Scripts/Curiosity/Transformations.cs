@@ -209,6 +209,26 @@ public class Transformations : MonoBehaviour
         }
     }
 
+    public void PunctualDisform(float force, float springForce, float damping, float forceOffset)
+    {
+
+        Vector3 dir = new Vector3(Random.Range(-1f, 1f), Random.Range(-1f, 1f), Random.Range(-1f, 1f)).normalized;
+        Ray inputRay = new Ray(transform.position - dir * 3, dir);
+        RaycastHit hit;
+        this.forceOffset = forceOffset;
+
+        if (Physics.Raycast(inputRay, out hit))
+        {
+            MeshDeformer deformer = hit.collider.GetComponent<MeshDeformer>();
+            if (deformer)
+            {
+                Vector3 point = hit.point;
+                point += hit.normal * forceOffset;
+                deformer.AddDeformingForce(point, force, springForce, damping);
+            }
+        }
+    }
+
     public void Particle()
     {
         particles.Play();
